@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "scrape": "node scraper/index.mjs",
+    "notify": "node scraper/notifier.mjs"
   },
   "dependencies": {
+    "dotenv": "^17.3.1",
     "next": "16.2.1",
+    "puppeteer": "^24.40.0",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "resend": "^6.9.4"
   },
   "devDependencies": {
     "@types/node": "^20",

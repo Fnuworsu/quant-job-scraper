@@ -1,0 +1,20 @@
+[
+  {
+    "company": "Jane Street",
+    "title": "Quantitative Trading Intern - Summer 2026",
+    "url": "https://www.janestreet.com/join-jane-street/open-roles/?type=internship",
+    "dateScraped": "2025-01-01T12:00:00.000Z"
+  },
+  {
+    "company": "Citadel",
+    "title": "Software Engineering Intern - Trading Systems",
+    "url": "https://www.citadel.com/",
+    "dateScraped": "2025-01-01T12:00:00.000Z"
+  },
+  {
+    "company": "Hudson River Trading",
+    "title": "Algorithm Developer Intern",
+    "url": "https://www.hudsonrivertrading.com/careers/",
+    "dateScraped": "2025-01-01T12:00:00.000Z"
+  }
+]

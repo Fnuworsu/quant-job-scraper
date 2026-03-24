@@ -1,66 +1,56 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { promises as fs } from 'fs';
+import path from 'path';
 
-export default function Home() {
+export const dynamic = 'force-static';
+
+interface Job {
+  company: string;
+  title: string;
+  url: string;
+  dateScraped: string;
+}
+
+export default async function Home() {
+  let jobs: Job[] = [];
+
+  try {
+    const dataPath = path.join(process.cwd(), 'public', 'data.json');
+    const fileContents = await fs.readFile(dataPath, 'utf8');
+    jobs = JSON.parse(fileContents);
+  } catch (error) {
+    console.warn("No data.json found or error parsing.", error);
+  }
+
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <section>
+      <h1 className="page-title">ACTIVE_INTERNSHIPS</h1>
+      <p className="page-desc">
+        Real-time aggregation of quantitative trading, research, and engineering roles.
+      </p>
+
+      {jobs.length === 0 ? (
+        <div className="empty-state">
+          [ SYSTEM: NO ACTIVE ROLES FOUND IN DATABASE ]
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      ) : (
+        <div className="data-grid">
+          {jobs.map((job, idx) => {
+            const date = new Date(job.dateScraped);
+            const formattedDate = !isNaN(date.getTime()) 
+              ? date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+              : 'Unknown Date';
+
+            return (
+              <a href={job.url} target="_blank" rel="noopener noreferrer" className="data-row" key={idx}>
+                <div className="company-name">{job.company.toUpperCase()}</div>
+                <div className="job-title">{job.title}</div>
+                <div><span className="status-badge">OPEN</span></div>
+                <div className="date">[{formattedDate}]</div>
+              </a>
+            );
+          })}
         </div>
-      </main>
-    </div>
+      )}
+    </section>
   );
 }
