@@ -15,16 +15,30 @@ async function scrapeCompany(browser, company) {
   try {
     await page.goto(company.url, { waitUntil: 'networkidle2', timeout: 30000 });
     
-    // We use a generic approach for demonstration. 
-    // In practice, each company needs specific scraping logic.
-    const jobs = await page.evaluate((sel) => {
+    const rawJobs = await page.evaluate((sel) => {
       const elements = document.querySelectorAll(sel);
       return Array.from(elements).map(el => el.textContent.trim());
     }, company.selector || 'h3, h4, .job-title');
 
+    // Filter out common non-job noise 
+    const noiseWords = ['about', 'contact', 'home', 'careers', 'privacy', 'terms', 'apply', 'login', 'log in', 'team', 'faq', 'cookie'];
+    const jobs = rawJobs.filter(title => {
+      if (!title) return false;
+      if (title.length < 5 || title.length > 120) return false;
+      const lower = title.toLowerCase();
+      // Remove generic menu items if the text EXACTLY matches or strongly contains them without other job contexts
+      if (noiseWords.some(w => lower === w || lower === `${w} us`)) return false;
+      // Exclude simple navigation junk
+      if (lower.includes('read more') || lower.includes('learn more')) return false;
+      return true;
+    });
+
+    // Deduplicate any identical scraped strings on the same page
+    const uniqueJobs = [...new Set(jobs)];
+
     await page.close();
     
-    return jobs.map(title => ({
+    return uniqueJobs.map(title => ({
       company: company.name,
       title: title,
       url: company.url, // In real life, link specifically to the job
