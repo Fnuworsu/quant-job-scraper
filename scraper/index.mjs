@@ -17,31 +17,50 @@ async function scrapeCompany(browser, company) {
     
     const rawJobs = await page.evaluate((sel) => {
       const elements = document.querySelectorAll(sel);
-      return Array.from(elements).map(el => el.textContent.trim());
-    }, company.selector || 'h3, h4, .job-title');
+      return Array.from(elements).map(el => {
+        // Try to find the nearest anchor tag to get the specific job link
+        const linkEl = el.tagName === 'A' ? el : el.querySelector('a') || el.closest('a');
+        return {
+          title: el.textContent.replace(/\s+/g, ' ').trim(),
+          href: linkEl ? linkEl.href : null
+        };
+      });
+    }, company.selector || 'a, h1, h2, h3, h4, .job-title');
 
-    // Filter out common non-job noise 
+    // Filter out common non-job noise and ONLY keep internships, programs, events
     const noiseWords = ['about', 'contact', 'home', 'careers', 'privacy', 'terms', 'apply', 'login', 'log in', 'team', 'faq', 'cookie'];
-    const jobs = rawJobs.filter(title => {
+    const targetKeywords = ['intern', 'internship', 'program', 'event', 'summit', 'insight', 'camp', 'fellowship'];
+    
+    const validJobs = rawJobs.filter(job => {
+      const title = job.title;
       if (!title) return false;
       if (title.length < 5 || title.length > 120) return false;
+      
       const lower = title.toLowerCase();
-      // Remove generic menu items if the text EXACTLY matches or strongly contains them without other job contexts
       if (noiseWords.some(w => lower === w || lower === `${w} us`)) return false;
-      // Exclude simple navigation junk
       if (lower.includes('read more') || lower.includes('learn more')) return false;
+      
+      // Must contain an internship/program keyword
+      if (!targetKeywords.some(k => lower.includes(k))) return false;
+      
       return true;
     });
 
     // Deduplicate any identical scraped strings on the same page
-    const uniqueJobs = [...new Set(jobs)];
+    const uniqueMap = new Map();
+    for (const job of validJobs) {
+      if (!uniqueMap.has(job.title)) {
+        uniqueMap.set(job.title, job);
+      }
+    }
+    const uniqueJobs = Array.from(uniqueMap.values());
 
     await page.close();
     
-    return uniqueJobs.map(title => ({
+    return uniqueJobs.map(job => ({
       company: company.name,
-      title: title,
-      url: company.url, // In real life, link specifically to the job
+      title: job.title,
+      url: job.href || company.url, // Fallback to company URL if specific job link wasn't found
       dateScraped: new Date().toISOString()
     }));
   } catch (err) {

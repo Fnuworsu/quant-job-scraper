@@ -20,8 +20,7 @@ export default function RootLayout({
               <span className="cursor-block">_</span>QUANT<span className="accent">BOARD</span>
             </div>
             <nav className="nav">
-              <a href="/" className="nav-link">INTERNSHIPS</a>
-              <a href="/programs" className="nav-link">PROGRAMS</a>
+              <a href="/" className="nav-link">OPPORTUNITIES</a>
             </nav>
           </header>
           <main className="main-content">

@@ -23,9 +23,9 @@ export default async function Home() {
 
   return (
     <section>
-      <h1 className="page-title">ACTIVE_INTERNSHIPS</h1>
+      <h1 className="page-title">ACTIVE_OPPORTUNITIES</h1>
       <p className="page-desc">
-        Real-time aggregation of quantitative trading, research, and engineering roles.
+        Real-time aggregation of quantitative internships, early-career programs, and events.
       </p>
 
       {jobs.length === 0 ? (
