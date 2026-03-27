@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { companies } from './companies.mjs';
 import { buildJobsFromCandidates, mergeJobs } from './job-utils.mjs';
+import { categorizeListings } from './semantic-categorizer.mjs';
 
 const DATA_FILE = path.join(process.cwd(), 'public', 'data.json');
 
@@ -115,6 +116,7 @@ async function run() {
   }
 
   await browser.close();
+  const categorizedJobs = await categorizeListings(allJobs);
 
   // Load existing data to preserve unchanged items or handle diffs
   let existingData = [];
@@ -126,7 +128,7 @@ async function run() {
     console.warn("Could not read previous data, starting fresh.");
   }
 
-  const fullList = mergeJobs(allJobs, existingData);
+  const fullList = mergeJobs(categorizedJobs, existingData);
 
   // Write to public folder for static Next.js export to read
   fs.writeFileSync(DATA_FILE, JSON.stringify(fullList, null, 2));

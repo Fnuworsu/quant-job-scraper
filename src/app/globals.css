@@ -145,6 +145,37 @@ body {
   gap: 1rem;
 }
 
+.category-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.category-title {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+
+.category-count {
+  color: var(--accent-cyan);
+}
+
+.category-desc {
+  margin-top: 0.4rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
 .data-row {
   display: grid;
   grid-template-columns: 2fr 3fr 1fr 1fr;
@@ -193,6 +224,15 @@ body {
   font-size: 1.05rem;
 }
 
+.row-meta {
+  display: inline-block;
+  margin-left: 0.75rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+
 .data-row .status-badge {
   font-family: var(--font-mono);
   font-size: 0.75rem;
@@ -202,6 +242,24 @@ body {
   border: 1px solid rgba(0, 255, 204, 0.2);
   display: inline-block;
   width: max-content;
+}
+
+.data-row .badge-job {
+  background: rgba(0, 255, 115, 0.12);
+  border-color: rgba(0, 255, 115, 0.28);
+  color: var(--accent-green);
+}
+
+.data-row .badge-program {
+  background: rgba(0, 255, 204, 0.1);
+  border-color: rgba(0, 255, 204, 0.2);
+  color: var(--accent-cyan);
+}
+
+.data-row .badge-event {
+  background: rgba(255, 214, 10, 0.1);
+  border-color: rgba(255, 214, 10, 0.24);
+  color: #ffd60a;
 }
 
 .data-row .date {
@@ -315,9 +373,15 @@ body {
     grid-template-columns: 1fr;
     gap: 0.5rem;
   }
+
   .data-row .date {
     text-align: left;
   }
+
+  .category-header {
+    align-items: flex-start;
+  }
+
   .footer-content {
     flex-direction: column;
     align-items: flex-start;

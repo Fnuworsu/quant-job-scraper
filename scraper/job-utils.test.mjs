@@ -121,7 +121,17 @@ test('does not treat programmer titles as early-career programs', () => {
 
 test('drops legacy placeholder rows during merge while preserving direct listings', () => {
   const mergedJobs = mergeJobs(
-    [],
+    [
+      {
+        company: 'Jane Street',
+        title: 'Trading Intern',
+        url: 'https://boards.greenhouse.io/janestreet/jobs/123456',
+        category: 'job',
+        jobTrack: 'internship',
+        firstSeenAt: '2025-01-02T12:00:00.000Z',
+        dateScraped: '2025-01-02T12:00:00.000Z',
+      },
+    ],
     [
       {
         company: 'Hudson River Trading',
@@ -133,6 +143,9 @@ test('drops legacy placeholder rows during merge while preserving direct listing
         company: 'Jane Street',
         title: 'Trading Intern',
         url: 'https://boards.greenhouse.io/janestreet/jobs/123456',
+        category: 'job',
+        jobTrack: 'internship',
+        firstSeenAt: '2025-01-01T12:00:00.000Z',
         dateScraped: '2025-01-01T12:00:00.000Z',
       },
     ],
@@ -143,7 +156,41 @@ test('drops legacy placeholder rows during merge while preserving direct listing
       company: 'Jane Street',
       title: 'Trading Intern',
       url: 'https://boards.greenhouse.io/janestreet/jobs/123456',
-      dateScraped: '2025-01-01T12:00:00.000Z',
+      category: 'job',
+      jobTrack: 'internship',
+      categoryConfidence: null,
+      classificationModel: null,
+      firstSeenAt: '2025-01-01T12:00:00.000Z',
+      dateScraped: '2025-01-02T12:00:00.000Z',
     },
+  ]);
+});
+
+test('merge keeps oldest firstSeenAt so listings sort oldest first', () => {
+  const mergedJobs = mergeJobs(
+    [
+      {
+        company: 'Teza Technologies',
+        title: 'Quant Internship',
+        url: 'https://jobs.ashbyhq.com/teza/123',
+        category: 'job',
+        jobTrack: 'internship',
+        firstSeenAt: '2025-01-03T12:00:00.000Z',
+        dateScraped: '2025-01-04T12:00:00.000Z',
+      },
+      {
+        company: 'Citadel',
+        title: 'GQS PhD Fellowship',
+        url: 'https://www.citadel.com/careers/programs-and-events/gqs-phd-fellowship',
+        category: 'program',
+        firstSeenAt: '2025-01-01T12:00:00.000Z',
+        dateScraped: '2025-01-04T12:00:00.000Z',
+      },
+    ],
+  );
+
+  assert.deepEqual(mergedJobs.map((job) => job.title), [
+    'GQS PhD Fellowship',
+    'Quant Internship',
   ]);
 });

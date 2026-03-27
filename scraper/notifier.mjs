@@ -45,9 +45,10 @@ async function notify() {
   const emailsString = process.env.SUBSCRIBER_EMAILS || 'test@example.com';
   const recipients = emailsString.split(',').map(e => e.trim());
 
-  let htmlBody = `<h1>New Quant Jobs/Internships Detected</h1><ul>`;
+  let htmlBody = `<h1>New Quant Listings Detected</h1><ul>`;
   newJobs.slice(0, 10).forEach(job => {
-    htmlBody += `<li><strong>${job.company}</strong>: <a href="${job.url}">${job.title}</a></li>`;
+    const label = job.category ? ` [${job.category.toUpperCase()}]` : '';
+    htmlBody += `<li><strong>${job.company}</strong>${label}: <a href="${job.url}">${job.title}</a></li>`;
   });
   if (newJobs.length > 10) {
     htmlBody += `<li>...and ${newJobs.length - 10} more. Check the dashboard!</li>`;
@@ -58,7 +59,7 @@ async function notify() {
     const data = await resend.emails.send({
       from: 'Quant Board <onboarding@resend.dev>', // You should use your domain here
       to: recipients,
-      subject: `[Quant Board] ${newJobs.length} New Openings!`,
+      subject: `[Quant Board] ${newJobs.length} New Listings!`,
       html: htmlBody,
     });
     console.log("Email sent successfully", data);

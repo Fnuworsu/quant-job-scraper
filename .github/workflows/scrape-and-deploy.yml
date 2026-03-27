@@ -34,6 +34,12 @@ jobs:
           
       - name: Install Dependencies
         run: npm ci
+
+      - name: Cache semantic model
+        uses: actions/cache@v4
+        with:
+          path: .cache/huggingface
+          key: ${{ runner.os }}-huggingface-${{ hashFiles('package-lock.json') }}
         
       - name: Backup previous data
         run: |

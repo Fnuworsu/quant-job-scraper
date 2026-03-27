@@ -103,6 +103,8 @@ const STOP_WORDS = new Set([
   'our',
 ]);
 
+const ALLOWED_CATEGORIES = new Set(['job', 'program', 'event']);
+
 export function cleanText(value = '') {
   return value.replace(/\s+/g, ' ').trim();
 }
@@ -337,10 +339,23 @@ function normalizeJob(job) {
     return null;
   }
 
+  if (job.category !== undefined && job.category !== null && !ALLOWED_CATEGORIES.has(job.category)) {
+    return null;
+  }
+
+  if (job.category === null) {
+    return null;
+  }
+
   return {
     company: cleanText(job.company ?? ''),
     title,
     url,
+    category: job.category ?? null,
+    jobTrack: job.jobTrack ?? null,
+    categoryConfidence: job.categoryConfidence ?? null,
+    classificationModel: job.classificationModel ?? null,
+    firstSeenAt: job.firstSeenAt ?? job.dateScraped ?? new Date().toISOString(),
     dateScraped: job.dateScraped ?? new Date().toISOString(),
   };
 }
@@ -363,6 +378,7 @@ export function buildJobsFromCandidates(company, candidates, dateScraped = new D
       company: company.name,
       title,
       url,
+      contextText: cleanText(candidate?.contextText ?? ''),
       dateScraped,
     };
 
@@ -386,7 +402,24 @@ export function mergeJobs(scrapedJobs, existingJobs = [], limit = 1000) {
       continue;
     }
 
-    mergedJobs.set(jobKey(normalizedJob), normalizedJob);
+    const key = jobKey(normalizedJob);
+    const existingJob = mergedJobs.get(key);
+
+    if (!existingJob) {
+      mergedJobs.set(key, normalizedJob);
+      continue;
+    }
+
+    mergedJobs.set(key, {
+      ...existingJob,
+      ...normalizedJob,
+      firstSeenAt: existingJob.firstSeenAt.localeCompare(normalizedJob.firstSeenAt) <= 0
+        ? existingJob.firstSeenAt
+        : normalizedJob.firstSeenAt,
+      dateScraped: existingJob.dateScraped.localeCompare(normalizedJob.dateScraped) >= 0
+        ? existingJob.dateScraped
+        : normalizedJob.dateScraped,
+    });
   }
 
   for (const job of existingJobs) {
@@ -398,10 +431,23 @@ export function mergeJobs(scrapedJobs, existingJobs = [], limit = 1000) {
     const key = jobKey(normalizedJob);
     if (!mergedJobs.has(key)) {
       mergedJobs.set(key, normalizedJob);
+      continue;
     }
+
+    const existingJob = mergedJobs.get(key);
+    mergedJobs.set(key, {
+      ...normalizedJob,
+      ...existingJob,
+      firstSeenAt: normalizedJob.firstSeenAt.localeCompare(existingJob.firstSeenAt) <= 0
+        ? normalizedJob.firstSeenAt
+        : existingJob.firstSeenAt,
+      dateScraped: normalizedJob.dateScraped.localeCompare(existingJob.dateScraped) >= 0
+        ? normalizedJob.dateScraped
+        : existingJob.dateScraped,
+    });
   }
 
   return Array.from(mergedJobs.values())
-    .sort((left, right) => right.dateScraped.localeCompare(left.dateScraped))
+    .sort((left, right) => left.firstSeenAt.localeCompare(right.firstSeenAt))
     .slice(0, limit);
 }
