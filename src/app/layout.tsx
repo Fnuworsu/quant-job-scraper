@@ -36,7 +36,7 @@ export default function RootLayout({
 
           <footer className="footer">
             <div className="footer-content">
-              <p className="footer-note">Copyright Felix Noos</p>
+              <p className="footer-note">Copyright 2026 </p>
             </div>
           </footer>
         </div>
