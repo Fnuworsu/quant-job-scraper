@@ -2,6 +2,7 @@ import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
 import { companies } from './companies.mjs';
+import { buildJobsFromCandidates, mergeJobs } from './job-utils.mjs';
 
 const DATA_FILE = path.join(process.cwd(), 'public', 'data.json');
 
@@ -14,55 +15,86 @@ async function scrapeCompany(browser, company) {
   
   try {
     await page.goto(company.url, { waitUntil: 'networkidle2', timeout: 30000 });
+    await page.waitForSelector('a[href]', { timeout: 5000 }).catch(() => {});
     
-    const rawJobs = await page.evaluate((sel) => {
-      const elements = document.querySelectorAll(sel);
-      return Array.from(elements).map(el => {
-        // Try to find the nearest anchor tag to get the specific job link
-        const linkEl = el.tagName === 'A' ? el : el.querySelector('a') || el.closest('a');
-        return {
-          title: el.textContent.replace(/\s+/g, ' ').trim(),
-          href: linkEl ? linkEl.href : null
+    const rawCandidates = await page.evaluate((sel) => {
+      const clean = (value = '') => value.replace(/\s+/g, ' ').trim();
+      const getText = (element) =>
+        clean(
+          element?.getAttribute?.('aria-label') ??
+            element?.getAttribute?.('title') ??
+            element?.textContent ??
+            '',
+        );
+
+      const elements = [
+        ...document.querySelectorAll(sel),
+        ...document.querySelectorAll('a[href]'),
+      ];
+      const seen = new Set();
+      const candidates = [];
+
+      for (const element of elements) {
+        if (!(element instanceof Element)) {
+          continue;
+        }
+
+        const container =
+          element.closest(
+            'article, li, tr, .job, .job-card, .job-item, .opening, .opening-card, .position, .posting',
+          ) ??
+          element.parentElement ??
+          element;
+        const relatedLinks = new Set();
+        const directLink = element.closest('a[href]');
+
+        if (directLink) {
+          relatedLinks.add(directLink);
+        }
+
+        if (container.matches('a[href]')) {
+          relatedLinks.add(container);
+        }
+
+        for (const link of container.querySelectorAll('a[href]')) {
+          relatedLinks.add(link);
+        }
+
+        const candidate = {
+          title: getText(element),
+          href: directLink instanceof HTMLAnchorElement ? directLink.href : null,
+          linkText: getText(directLink),
+          contextText: getText(container),
+          linkOptions: Array.from(relatedLinks)
+            .slice(0, 8)
+            .map((link) => ({
+              href: link.href,
+              text: getText(link),
+            })),
         };
-      });
-    }, company.selector || 'a, h1, h2, h3, h4, .job-title');
 
-    // Filter out common non-job noise and ONLY keep internships, programs, events
-    const noiseWords = ['about', 'contact', 'home', 'careers', 'privacy', 'terms', 'apply', 'login', 'log in', 'team', 'faq', 'cookie'];
-    const targetKeywords = ['intern', 'internship', 'program', 'event', 'summit', 'insight', 'camp', 'fellowship'];
-    
-    const validJobs = rawJobs.filter(job => {
-      const title = job.title;
-      if (!title) return false;
-      if (title.length < 5 || title.length > 120) return false;
-      
-      const lower = title.toLowerCase();
-      if (noiseWords.some(w => lower === w || lower === `${w} us`)) return false;
-      if (lower.includes('read more') || lower.includes('learn more')) return false;
-      
-      // Must contain an internship/program keyword
-      if (!targetKeywords.some(k => lower.includes(k))) return false;
-      
-      return true;
-    });
+        const key = JSON.stringify([
+          candidate.title,
+          candidate.href,
+          candidate.linkOptions.map((option) => option.href),
+        ]);
 
-    // Deduplicate any identical scraped strings on the same page
-    const uniqueMap = new Map();
-    for (const job of validJobs) {
-      if (!uniqueMap.has(job.title)) {
-        uniqueMap.set(job.title, job);
+        if (seen.has(key)) {
+          continue;
+        }
+
+        seen.add(key);
+        candidates.push(candidate);
       }
-    }
-    const uniqueJobs = Array.from(uniqueMap.values());
+
+      return candidates;
+    }, company.selector || 'a[href], h1, h2, h3, h4, .job-title, .posting-title');
+
+    const jobs = buildJobsFromCandidates(company, rawCandidates);
 
     await page.close();
-    
-    return uniqueJobs.map(job => ({
-      company: company.name,
-      title: job.title,
-      url: job.href || company.url, // Fallback to company URL if specific job link wasn't found
-      dateScraped: new Date().toISOString()
-    }));
+
+    return jobs;
   } catch (err) {
     console.error(`Failed to scrape ${company.name}:`, err.message);
     await page.close();
@@ -71,7 +103,10 @@ async function scrapeCompany(browser, company) {
 }
 
 async function run() {
-  const browser = await puppeteer.launch({ headless: 'new' });
+  const browser = await puppeteer.launch({
+    headless: 'new',
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  });
   const allJobs = [];
 
   for (const company of companies) {
@@ -87,12 +122,11 @@ async function run() {
     if (fs.existsSync(DATA_FILE)) {
       existingData = JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
     }
-  } catch (e) {
+  } catch {
     console.warn("Could not read previous data, starting fresh.");
   }
 
-  // Merge (a real system would do proper diffing to find 'new' jobs for email notifications)
-  const fullList = [...allJobs, ...existingData].slice(0, 1000); // keep it bounded
+  const fullList = mergeJobs(allJobs, existingData);
 
   // Write to public folder for static Next.js export to read
   fs.writeFileSync(DATA_FILE, JSON.stringify(fullList, null, 2));

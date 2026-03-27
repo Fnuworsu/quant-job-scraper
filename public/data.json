@@ -1,20 +1,200 @@
 [
   {
-    "company": "Jane Street",
-    "title": "Quantitative Trading Intern - Summer 2026",
-    "url": "https://www.janestreet.com/join-jane-street/open-roles/?type=internship",
-    "dateScraped": "2025-01-01T12:00:00.000Z"
+    "company": "WorldQuant",
+    "title": "Data Science Intern",
+    "url": "https://www.worldquant.com/career-listing?id=4069460006",
+    "dateScraped": "2026-03-27T06:59:53.102Z"
+  },
+  {
+    "company": "WorldQuant",
+    "title": "Quantitative Research Intern",
+    "url": "https://www.worldquant.com/career-listing?id=4084570006",
+    "dateScraped": "2026-03-27T06:59:53.102Z"
+  },
+  {
+    "company": "WorldQuant",
+    "title": "Software Engineer Intern",
+    "url": "https://www.worldquant.com/career-listing?id=4655484006",
+    "dateScraped": "2026-03-27T06:59:53.102Z"
+  },
+  {
+    "company": "WorldQuant",
+    "title": "Software Engineer Intern, AI/LLM Initiative",
+    "url": "https://www.worldquant.com/career-listing?id=4572988006",
+    "dateScraped": "2026-03-27T06:59:53.102Z"
+  },
+  {
+    "company": "WorldQuant",
+    "title": "Software Engineer Intern (Summer Internship)",
+    "url": "https://www.worldquant.com/career-listing?id=4648851006",
+    "dateScraped": "2026-03-27T06:59:53.102Z"
+  },
+  {
+    "company": "WorldQuant",
+    "title": "Quantitative Research Intern (Summer 2026)",
+    "url": "https://www.worldquant.com/career-listing?id=4241532006",
+    "dateScraped": "2026-03-27T06:59:53.102Z"
+  },
+  {
+    "company": "TransMarket Group",
+    "title": "Quantitative Trader Intern",
+    "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/4749915007?gh_jid=4749915007",
+    "dateScraped": "2026-03-27T06:59:20.464Z"
+  },
+  {
+    "company": "TransMarket Group",
+    "title": "Algorithmic Trader Intern",
+    "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/4749906007?gh_jid=4749906007",
+    "dateScraped": "2026-03-27T06:59:20.464Z"
+  },
+  {
+    "company": "TransMarket Group",
+    "title": "DevOps/SRE Intern",
+    "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/4749908007?gh_jid=4749908007",
+    "dateScraped": "2026-03-27T06:59:20.464Z"
+  },
+  {
+    "company": "TransMarket Group",
+    "title": "Systems Engineer Intern",
+    "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/4749924007?gh_jid=4749924007",
+    "dateScraped": "2026-03-27T06:59:20.464Z"
+  },
+  {
+    "company": "TransMarket Group",
+    "title": "Treasury Operations Intern",
+    "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/4749925007?gh_jid=4749925007",
+    "dateScraped": "2026-03-27T06:59:20.464Z"
+  },
+  {
+    "company": "Teza Technologies",
+    "title": "Teza 2026 “Quantitative Research” Internship",
+    "url": "https://jobs.ashbyhq.com/teza-technologies/efb51bcc-1394-477c-840f-1dcdb1eaed61",
+    "dateScraped": "2026-03-27T06:59:09.027Z"
+  },
+  {
+    "company": "Teza Technologies",
+    "title": "Teza 2026 “Quantitative Research” Internship London, Yerevan",
+    "url": "https://jobs.ashbyhq.com/teza-technologies/efb51bcc-1394-477c-840f-1dcdb1eaed61",
+    "dateScraped": "2026-03-27T06:59:09.027Z"
+  },
+  {
+    "company": "Group One Trading",
+    "title": "Desktop Engineer Intern- NYC",
+    "url": "https://group1.applicantpro.com/jobs/4032562",
+    "dateScraped": "2026-03-27T06:57:20.250Z"
+  },
+  {
+    "company": "Group One Trading",
+    "title": "Trading Analyst Intern",
+    "url": "https://group1.applicantpro.com/jobs/3859850",
+    "dateScraped": "2026-03-27T06:57:20.250Z"
+  },
+  {
+    "company": "Gelber Group",
+    "title": "Algorithmic Trading Internship - Boston Summer 2026",
+    "url": "https://job-boards.greenhouse.io/gelbergroup/jobs/4654948006",
+    "dateScraped": "2026-03-27T06:57:04.271Z"
+  },
+  {
+    "company": "G-Research",
+    "title": "Insight AnalystLondon",
+    "url": "https://www.gresearch.com/vacancies/insight-analyst",
+    "dateScraped": "2026-03-27T06:56:56.528Z"
+  },
+  {
+    "company": "G-Research",
+    "title": "Internship in Quantitative ResearchLondon",
+    "url": "https://www.gresearch.com/vacancies/internship-in-quantitative-research",
+    "dateScraped": "2026-03-27T06:56:56.528Z"
   },
   {
     "company": "Citadel",
-    "title": "Software Engineering Intern - Trading Systems",
-    "url": "https://www.citadel.com/",
-    "dateScraped": "2025-01-01T12:00:00.000Z"
+    "title": "Citadel Associate Program",
+    "url": "https://www.citadel.com/careers/investing/citadel-associate-program",
+    "dateScraped": "2026-03-27T06:56:02.956Z"
   },
   {
-    "company": "Hudson River Trading",
-    "title": "Algorithm Developer Intern",
-    "url": "https://www.hudsonrivertrading.com/careers/",
-    "dateScraped": "2025-01-01T12:00:00.000Z"
+    "company": "Citadel",
+    "title": "GQS PhD Fellowship",
+    "url": "https://www.citadel.com/careers/programs-and-events/gqs-phd-fellowship",
+    "dateScraped": "2026-03-27T06:56:02.956Z"
+  },
+  {
+    "company": "Citadel",
+    "title": "PhD Summit",
+    "url": "https://www.citadel.com/careers/programs-and-events/phd-summit",
+    "dateScraped": "2026-03-27T06:56:02.956Z"
+  },
+  {
+    "company": "Chicago Trading Company",
+    "title": "Campus Recruiter",
+    "url": "http://www.chicagotrading.com/posting?req=4676161005",
+    "dateScraped": "2026-03-27T06:55:59.543Z"
+  },
+  {
+    "company": "Bridgewater Associates",
+    "title": "Campus Talent Associate Westport, CT & New York City",
+    "url": "https://job-boards.greenhouse.io/bridgewater89/jobs/8334259002",
+    "dateScraped": "2026-03-27T06:55:48.322Z"
+  },
+  {
+    "company": "Bridgewater Associates",
+    "title": "2027 Investment Associate Intern New York City",
+    "url": "https://job-boards.greenhouse.io/bridgewater89/jobs/8395041002",
+    "dateScraped": "2026-03-27T06:55:48.322Z"
+  },
+  {
+    "company": "Bridgewater Associates",
+    "title": "Program Manager Westport, CT",
+    "url": "https://job-boards.greenhouse.io/bridgewater89/jobs/8112428002",
+    "dateScraped": "2026-03-27T06:55:48.322Z"
+  },
+  {
+    "company": "Akuna Capital",
+    "title": "Campus Recruiter",
+    "url": "https://akunacapital.com/careers/job/7738888/campus-recruiter?gh_jid=7738888",
+    "dateScraped": "2026-03-27T06:54:52.778Z"
+  },
+  {
+    "company": "Akuna Capital",
+    "title": "Development Internship - C++, Summer 2026",
+    "url": "https://akunacapital.com/careers/job/7756608/development-internship---c-summer-2026?gh_jid=7756608",
+    "dateScraped": "2026-03-27T06:54:52.778Z"
+  },
+  {
+    "company": "Akuna Capital",
+    "title": "Software Engineer Intern - C# .NET Desktop, Summer 2026",
+    "url": "https://akunacapital.com/careers/job/7060377/software-engineer-intern---c-net-desktop-summer-2026?gh_jid=7060377",
+    "dateScraped": "2026-03-27T06:54:52.778Z"
+  },
+  {
+    "company": "Akuna Capital",
+    "title": "Software Engineer Intern - Python, Summer 2026",
+    "url": "https://akunacapital.com/careers/job/7055471/software-engineer-intern---python-summer-2026?gh_jid=7055471",
+    "dateScraped": "2026-03-27T06:54:52.778Z"
+  },
+  {
+    "company": "Akuna Capital",
+    "title": "Campus Recruiter Chicago",
+    "url": "https://akunacapital.com/careers/job/7738888/campus-recruiter?gh_jid=7738888",
+    "dateScraped": "2026-03-27T06:54:52.778Z"
+  },
+  {
+    "company": "Akuna Capital",
+    "title": "Development Internship - C++, Summer 2026 Shanghai",
+    "url": "https://akunacapital.com/careers/job/7756608/development-internship---c-summer-2026?gh_jid=7756608",
+    "dateScraped": "2026-03-27T06:54:52.778Z"
+  },
+  {
+    "company": "Akuna Capital",
+    "title": "Software Engineer Intern - C# .NET Desktop, Summer 2026 Chicago",
+    "url": "https://akunacapital.com/careers/job/7060377/software-engineer-intern---c-net-desktop-summer-2026?gh_jid=7060377",
+    "dateScraped": "2026-03-27T06:54:52.778Z"
+  },
+  {
+    "company": "Akuna Capital",
+    "title": "Software Engineer Intern - Python, Summer 2026 Chicago",
+    "url": "https://akunacapital.com/careers/job/7055471/software-engineer-intern---python-summer-2026?gh_jid=7055471",
+    "dateScraped": "2026-03-27T06:54:52.778Z"
   }
 ]
