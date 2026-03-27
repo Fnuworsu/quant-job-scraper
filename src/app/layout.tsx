@@ -4,35 +4,39 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Quant Board',
-  description: 'A curated dashboard of quant and prop trading internships and programs.',
+  description: 'A simple board for quant jobs, programs, and events.',
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en">
       <body>
         <div className="layout">
           <header className="header">
-            <div className="logo">
-              <span className="cursor-block">_</span>QUANT<span className="accent">BOARD</span>
-            </div>
+            <Link href="/" className="brand">
+              <span className="brand-mark">QB</span>
+              <div>
+                <p className="brand-name">Quant Board</p>
+                <p className="brand-subtitle">Careers, programs, and events</p>
+              </div>
+            </Link>
+
             <nav className="nav">
-              <Link href="/" className="nav-link">OPPORTUNITIES</Link>
+              <Link href="/" className="nav-link">Board</Link>
             </nav>
           </header>
+
           <main className="main-content">
             {children}
           </main>
+
           <footer className="footer">
             <div className="footer-content">
-              <div className="system-status" style={{ width: '100%', textAlign: 'center' }}>
-                <span className="status-dot"></span> SYSTEM: ONLINE <br/>
-                <span className="update-time">LAST UPDATE: UTC 12:00:00</span>
-              </div>
+              <p className="footer-note">Copyright Felix Noos</p>
             </div>
           </footer>
         </div>
