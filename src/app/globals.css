@@ -133,11 +133,19 @@ select {
   gap: 28px;
 }
 
+.hero-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(320px, 0.9fr);
+  gap: 28px;
+  align-items: stretch;
+}
+
 .hero-copy {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 760px;
+  justify-content: center;
+  min-height: 100%;
 }
 
 .hero-eyebrow {
@@ -160,6 +168,86 @@ select {
   max-width: 620px;
   color: var(--text-muted);
   font-size: 1.05rem;
+}
+
+.hero-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.86) 0%, rgba(249, 246, 241, 0.95) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+}
+
+.hero-panel-label {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.hero-stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid var(--border);
+}
+
+.hero-stat-value {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.hero-stat-label {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.hero-panel-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hero-panel-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.hero-panel-copy {
+  color: var(--text-muted);
+  font-size: 0.96rem;
+}
+
+.company-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.company-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.9rem;
 }
 
 .board-shell {
@@ -247,7 +335,7 @@ select {
 
 .listing-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -374,8 +462,12 @@ select {
     padding: 18px;
   }
 
-  .listing-grid {
+  .hero-shell {
     grid-template-columns: 1fr;
+  }
+
+  .listing-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -389,8 +481,20 @@ select {
     padding: 18px;
   }
 
+  .hero-panel {
+    padding: 18px;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+  }
+
   .listing-card {
     min-height: 0;
+  }
+
+  .listing-grid {
+    grid-template-columns: 1fr;
   }
 
   .listing-meta {

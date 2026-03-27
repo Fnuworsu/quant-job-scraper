@@ -27,15 +27,55 @@ export default async function Home() {
     category,
     jobs: categorizedJobs.filter((job) => job.category === category),
   }));
+  const featuredCompanies = Array.from(
+    new Set(categorizedJobs.map((job) => job.company)),
+  ).slice(0, 6);
+  const totalListings = categorizedJobs.length;
 
   return (
     <section className="hero">
-      <div className="hero-copy">
-        <p className="hero-eyebrow">Quant Board</p>
-        <h1 className="page-title">Quant jobs, programs, and events in one place.</h1>
-        <p className="page-desc">
-          A simple board for tracking quant internships, new grad roles, programs, and recruiting events from top firms.
-        </p>
+      <div className="hero-shell">
+        <div className="hero-copy">
+          <p className="hero-eyebrow">Quant Board</p>
+          <h1 className="page-title">Quant jobs, programs, and events in one place.</h1>
+          <p className="page-desc">
+            A simple board for tracking quant internships, new grad roles, programs, and recruiting events from top firms.
+          </p>
+        </div>
+
+        <aside className="hero-panel">
+          <p className="hero-panel-label">Board overview</p>
+          <div className="hero-stats">
+            <div className="hero-stat-card">
+              <span className="hero-stat-value">{groups[0]?.jobs.length ?? 0}</span>
+              <span className="hero-stat-label">Jobs</span>
+            </div>
+            <div className="hero-stat-card">
+              <span className="hero-stat-value">{groups[1]?.jobs.length ?? 0}</span>
+              <span className="hero-stat-label">Programs</span>
+            </div>
+            <div className="hero-stat-card">
+              <span className="hero-stat-value">{groups[2]?.jobs.length ?? 0}</span>
+              <span className="hero-stat-label">Events</span>
+            </div>
+          </div>
+
+          <div className="hero-panel-section">
+            <p className="hero-panel-title">{totalListings} live listings right now</p>
+            <p className="hero-panel-copy">
+              Browse openings and opportunities across some of the most competitive quant firms, all in one board.
+            </p>
+          </div>
+
+          <div className="hero-panel-section">
+            <p className="hero-panel-title">Firms on the board</p>
+            <div className="company-cloud">
+              {featuredCompanies.map((company) => (
+                <span className="company-chip" key={company}>{company}</span>
+              ))}
+            </div>
+          </div>
+        </aside>
       </div>
 
       {categorizedJobs.length === 0 ? (
