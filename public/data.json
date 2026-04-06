@@ -8,7 +8,7 @@
     "categoryConfidence": 0.8413529902912518,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:54:52.778Z",
-    "dateScraped": "2026-04-05T22:23:56.434Z"
+    "dateScraped": "2026-04-06T01:52:42.689Z"
   },
   {
     "company": "Akuna Capital",
@@ -19,7 +19,7 @@
     "categoryConfidence": 0.8345481453353827,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:54:52.778Z",
-    "dateScraped": "2026-04-05T22:23:56.434Z"
+    "dateScraped": "2026-04-06T01:52:42.689Z"
   },
   {
     "company": "Akuna Capital",
@@ -74,7 +74,7 @@
     "categoryConfidence": 0.85385974648827,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:55:48.322Z",
-    "dateScraped": "2026-04-05T22:24:50.192Z"
+    "dateScraped": "2026-04-06T01:53:31.481Z"
   },
   {
     "company": "Citadel",
@@ -115,10 +115,10 @@
     "url": "https://www.gresearch.com/vacancies/internship-in-quantitative-research",
     "category": "job",
     "jobTrack": "internship",
-    "categoryConfidence": 0.9207420763938501,
+    "categoryConfidence": 0.9168936324779966,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:56:56.528Z",
-    "dateScraped": "2026-04-05T22:25:49.782Z"
+    "dateScraped": "2026-04-06T01:54:29.437Z"
   },
   {
     "company": "Gelber Group",
@@ -129,7 +129,7 @@
     "categoryConfidence": 0.9218248403129626,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:57:04.271Z",
-    "dateScraped": "2026-04-05T22:25:56.349Z"
+    "dateScraped": "2026-04-06T01:54:36.315Z"
   },
   {
     "company": "Group One Trading",
@@ -140,7 +140,7 @@
     "categoryConfidence": 0.7559160755259544,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:57:20.250Z",
-    "dateScraped": "2026-04-05T22:26:13.596Z"
+    "dateScraped": "2026-04-06T01:54:52.212Z"
   },
   {
     "company": "Group One Trading",
@@ -151,7 +151,7 @@
     "categoryConfidence": 0.7451005477255532,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:57:20.250Z",
-    "dateScraped": "2026-04-05T22:26:13.596Z"
+    "dateScraped": "2026-04-06T01:54:52.212Z"
   },
   {
     "company": "Teza Technologies",
@@ -162,7 +162,7 @@
     "categoryConfidence": 0.9352422838136248,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:59:09.027Z",
-    "dateScraped": "2026-04-05T22:28:03.152Z"
+    "dateScraped": "2026-04-06T01:56:31.275Z"
   },
   {
     "company": "Teza Technologies",
@@ -173,7 +173,7 @@
     "categoryConfidence": 0.9137515176621022,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:59:09.027Z",
-    "dateScraped": "2026-04-05T22:28:03.152Z"
+    "dateScraped": "2026-04-06T01:56:31.275Z"
   },
   {
     "company": "TransMarket Group",
@@ -236,10 +236,10 @@
     "url": "https://www.worldquant.com/career-listing?id=4069460006",
     "category": "job",
     "jobTrack": "internship",
-    "categoryConfidence": 0.8397260538956259,
+    "categoryConfidence": 0.8440826714703145,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:59:53.102Z",
-    "dateScraped": "2026-04-05T22:28:42.271Z"
+    "dateScraped": "2026-04-06T01:57:09.786Z"
   },
   {
     "company": "WorldQuant",
@@ -247,10 +247,10 @@
     "url": "https://www.worldquant.com/career-listing?id=4084570006",
     "category": "job",
     "jobTrack": "internship",
-    "categoryConfidence": 0.8317539454120241,
+    "categoryConfidence": 0.8370580134040693,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:59:53.102Z",
-    "dateScraped": "2026-04-05T22:28:42.271Z"
+    "dateScraped": "2026-04-06T01:57:09.786Z"
   },
   {
     "company": "WorldQuant",
@@ -258,10 +258,10 @@
     "url": "https://www.worldquant.com/career-listing?id=4655484006",
     "category": "job",
     "jobTrack": "internship",
-    "categoryConfidence": 0.9012733590485021,
+    "categoryConfidence": 0.9040479893476531,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:59:53.102Z",
-    "dateScraped": "2026-04-05T22:28:42.271Z"
+    "dateScraped": "2026-04-06T01:57:09.786Z"
   },
   {
     "company": "WorldQuant",
@@ -269,10 +269,10 @@
     "url": "https://www.worldquant.com/career-listing?id=4572988006",
     "category": "job",
     "jobTrack": "internship",
-    "categoryConfidence": 0.8939861260028202,
+    "categoryConfidence": 0.8965713782608946,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:59:53.102Z",
-    "dateScraped": "2026-04-05T22:28:42.271Z"
+    "dateScraped": "2026-04-06T01:57:09.786Z"
   },
   {
     "company": "WorldQuant",
@@ -280,10 +280,10 @@
     "url": "https://www.worldquant.com/career-listing?id=4648851006",
     "category": "job",
     "jobTrack": "internship",
-    "categoryConfidence": 0.9018783101614901,
+    "categoryConfidence": 0.9123946224369585,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:59:53.102Z",
-    "dateScraped": "2026-04-05T22:28:42.271Z"
+    "dateScraped": "2026-04-06T01:57:09.786Z"
   },
   {
     "company": "WorldQuant",
@@ -294,7 +294,7 @@
     "categoryConfidence": 0.8501804211002072,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T06:59:53.102Z",
-    "dateScraped": "2026-04-05T22:28:42.271Z"
+    "dateScraped": "2026-04-06T01:57:09.786Z"
   },
   {
     "company": "Belvedere Trading",
@@ -305,7 +305,7 @@
     "categoryConfidence": 0.6493627308030478,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T07:36:23.408Z",
-    "dateScraped": "2026-04-05T22:24:31.025Z"
+    "dateScraped": "2026-04-06T01:53:13.317Z"
   },
   {
     "company": "Peak6",
@@ -327,7 +327,7 @@
     "categoryConfidence": 0.7454351647577335,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-27T18:49:48.835Z",
-    "dateScraped": "2026-04-05T22:26:13.596Z"
+    "dateScraped": "2026-04-06T01:54:52.212Z"
   },
   {
     "company": "Optiver",
@@ -371,7 +371,7 @@
     "categoryConfidence": 0.8905055039334506,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-31T13:05:15.507Z",
-    "dateScraped": "2026-04-05T22:28:03.152Z"
+    "dateScraped": "2026-04-06T01:56:31.275Z"
   },
   {
     "company": "Teza Technologies",
@@ -382,6 +382,6 @@
     "categoryConfidence": 0.8505752371390587,
     "classificationModel": "Xenova/all-MiniLM-L6-v2",
     "firstSeenAt": "2026-03-31T13:05:15.507Z",
-    "dateScraped": "2026-04-05T22:28:03.152Z"
+    "dateScraped": "2026-04-06T01:56:31.275Z"
   }
 ]
