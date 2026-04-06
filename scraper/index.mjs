@@ -7,6 +7,13 @@ import { categorizeListings } from './semantic-categorizer.mjs';
 
 const DATA_FILE = path.join(process.cwd(), 'public', 'data.json');
 
+async function launchBrowser() {
+  return puppeteer.launch({
+    headless: 'new',
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  });
+}
+
 async function scrapeCompany(browser, company) {
   console.log(`Scraping ${company.name}...`);
   const page = await browser.newPage();
@@ -92,30 +99,34 @@ async function scrapeCompany(browser, company) {
     }, company.selector || 'a[href], h1, h2, h3, h4, .job-title, .posting-title');
 
     const jobs = buildJobsFromCandidates(company, rawCandidates);
-
-    await page.close();
-
-    return jobs;
+    return { jobs, success: true };
   } catch (err) {
     console.error(`Failed to scrape ${company.name}:`, err.message);
-    await page.close();
-    return [];
+    return { jobs: [], success: false };
+  } finally {
+    await page.close().catch(() => {});
   }
 }
 
 async function run() {
-  const browser = await puppeteer.launch({
-    headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
-  });
+  let browser = await launchBrowser();
   const allJobs = [];
+  const successfulCompanies = new Set();
 
   for (const company of companies) {
-    const jobs = await scrapeCompany(browser, company);
+    if (!browser.connected) {
+      console.warn('Browser disconnected. Relaunching scrape session...');
+      browser = await launchBrowser();
+    }
+
+    const { jobs, success } = await scrapeCompany(browser, company);
+    if (success) {
+      successfulCompanies.add(company.name);
+    }
     allJobs.push(...jobs);
   }
 
-  await browser.close();
+  await browser.close().catch(() => {});
   const categorizedJobs = await categorizeListings(allJobs);
 
   // Load existing data to preserve unchanged items or handle diffs
@@ -128,7 +139,7 @@ async function run() {
     console.warn("Could not read previous data, starting fresh.");
   }
 
-  const fullList = mergeJobs(categorizedJobs, existingData);
+  const fullList = mergeJobs(categorizedJobs, existingData, 1000, { successfulCompanies });
 
   // Write to public folder for static Next.js export to read
   fs.writeFileSync(DATA_FILE, JSON.stringify(fullList, null, 2));

@@ -1,129 +1,103 @@
 import path from 'path';
 import { env, pipeline } from '@huggingface/transformers';
 
-const MODEL_ID = 'Xenova/all-MiniLM-L6-v2';
+const MODEL_ID = 'Xenova/paraphrase-MiniLM-L3-v2';
 const MODEL_CACHE_DIR = path.join(process.cwd(), '.cache', 'huggingface');
 
 env.cacheDir = MODEL_CACHE_DIR;
 
-const CATEGORY_ORDER = ['job', 'program', 'event'];
+const CATEGORY_ORDER = ['internship', 'new-grad', 'program'];
 
 const PROTOTYPES = {
   category: {
-    job: [
-      'software engineering internship for computer science students',
-      'new grad quantitative developer role',
-      'quantitative researcher internship',
-      'trading intern opportunity for engineering students',
-    ],
-    program: [
-      'student fellowship program',
-      'graduate associate program',
-      'rotational early career program',
-      'academy or development program for students',
-    ],
-    event: [
-      'campus recruiting event',
-      'student summit or networking session',
-      'hackathon or information session',
-      'career fair or open house event',
-    ],
-  },
-  stage: {
     internship: [
-      'internship for software engineering students',
-      'quantitative trading intern role',
-      'summer intern program',
+      'software engineering internship for computer science students',
+      'quantitative developer intern role',
+      'machine learning internship at a trading firm',
+      'quant researcher internship for engineering majors',
     ],
     'new-grad': [
-      'new grad software engineer role',
-      'graduate quantitative researcher role',
-      'early career full time engineering role',
+      'new grad software engineer role at a quant firm',
+      'graduate quantitative developer opportunity',
+      'early career machine learning engineer position',
+      'new graduate researcher or trader role for cs majors',
+    ],
+    program: [
+      'student fellowship or rotational program',
+      'campus recruiting summit or insight day',
+      'graduate academy, scholarship, or learning program',
+      'networking event, challenge, or information session for students',
     ],
   },
   csFocus: {
     include: [
       'software engineer internship',
       'quantitative researcher internship',
-      'trader intern role',
+      'developer role for computer science majors',
       'machine learning engineer new grad role',
-      'developer infrastructure internship',
-      'data engineer internship for computer science majors',
+      'trading technology internship',
+      'python or c plus plus developer position',
     ],
     exclude: [
       'campus recruiter role',
+      'finance internship',
       'human resources internship',
       'operations internship',
-      'program manager role',
-      'treasury or finance operations role',
-      'administrative event coordinator role',
+      'marketing or communications program',
+      'finance operations analyst role',
+      'administrative recruiting coordinator position',
     ],
   },
 };
 
-const EVENT_PATTERNS = [
-  /\bcareer fair\b/i,
+const INTERNSHIP_PATTERNS = [
+  /\bco-?op\b/i,
+  /\bintern(?:ship)?s?\b/i,
+  /\boff-cycle\b/i,
+  /\bsummer(?:\s+\d{4})?\b/i,
+];
+
+const NEW_GRAD_PATTERNS = [
+  /\bassociate(?:\s+program)?\b/i,
+  /\bearly career\b/i,
+  /\bfull[- ]time\b/i,
+  /\bgraduate\b/i,
+  /\bnew grad(?:uate)?\b/i,
+  /\buniversity grad(?:uate)?\b/i,
+];
+
+const PROGRAM_PATTERNS = [
+  /\bacademy\b/i,
+  /\bchallenge\b/i,
   /\bevents?\b/i,
+  /\bfellowships?\b/i,
   /\bhackathon\b/i,
   /\binfo(?:rmation)? session\b/i,
-  /\bmeet(?:-|\s)?and(?:-|\s)?greet\b/i,
-  /\bnetworking\b/i,
+  /\binsight\b/i,
   /\bopen house\b/i,
-  /\brecruiting event\b/i,
+  /\bprograms?\b/i,
+  /\brotational\b/i,
+  /\bscholar(ship)?\b/i,
   /\bsummit\b/i,
   /\bwebinar\b/i,
   /\bworkshop\b/i,
 ];
 
-const PROGRAM_PATTERNS = [
-  /\bacademy\b/i,
-  /\bassociate program\b/i,
-  /\bfellowships?\b/i,
-  /\bgraduate program\b/i,
-  /\bleadership program\b/i,
-  /\bprograms?\b/i,
-  /\brotational\b/i,
+const PROGRAM_EXCLUDE_PATTERNS = [
+  /\bcampus recruiter\b/i,
+  /\bcampus talent\b/i,
+  /\bprogram manager\b/i,
+  /\brecruit(?:er|ing)\b/i,
+  /\btalent acquisition\b/i,
 ];
 
-const JOB_PATTERNS = [
-  /\banalyst\b/i,
-  /\bassociate\b/i,
-  /\bapprenticeship\b/i,
-  /\bco-?op\b/i,
-  /\bdeveloper\b/i,
-  /\bengineer(?:ing)?\b/i,
-  /\bintern(?:ship)?s?\b/i,
-  /\bmanager\b/i,
-  /\bnew grad\b/i,
-  /\bquant(?:itative)?\b/i,
-  /\brecruiter\b/i,
-  /\bresearch(?:er)?\b/i,
-  /\bsoftware\b/i,
-  /\btrader|trading\b/i,
-];
-
-const JOB_STAGE_PATTERNS = {
-  internship: [
-    /\bco-?op\b/i,
-    /\bintern(?:ship)?s?\b/i,
-    /\bsummer(?:\s+\d{4})?\b/i,
-  ],
-  'new-grad': [
-    /\bassociate\b/i,
-    /\bearly career\b/i,
-    /\bgraduate\b/i,
-    /\bnew grad\b/i,
-  ],
-};
-
-const CS_FOCUS_POSITIVE_PATTERNS = [
-  /\balgo(?:rithmic)?\b/i,
+const TECHNICAL_ROLE_PATTERNS = [
+  /\balgorithm(?:ic)?\b/i,
   /\bc\+\+\b/i,
   /\bc#\b/i,
+  /\bcomputer science\b/i,
   /\bdata\b/i,
-  /\bdesktop\b/i,
   /\bdeveloper\b/i,
-  /\bdevops\b/i,
   /\bengineer(?:ing)?\b/i,
   /\binfrastructure\b/i,
   /\bmachine learning\b/i,
@@ -131,17 +105,14 @@ const CS_FOCUS_POSITIVE_PATTERNS = [
   /\bpython\b/i,
   /\bquant(?:itative)?\b/i,
   /\bresearch(?:er)?\b/i,
-  /\bsde\b/i,
   /\bsoftware\b/i,
-  /\bsre\b/i,
   /\bsystems?\b/i,
   /\btrader|trading\b/i,
 ];
 
-const CS_FOCUS_NEGATIVE_PATTERNS = [
+const NON_TECHNICAL_PATTERNS = [
   /\badmin(?:istrative)?\b/i,
   /\bcommunications?\b/i,
-  /\bexecutive\b/i,
   /\bfinance\b/i,
   /\bhuman resources?\b/i,
   /\bhr\b/i,
@@ -150,7 +121,7 @@ const CS_FOCUS_NEGATIVE_PATTERNS = [
   /\boperations?\b/i,
   /\bpeople\b/i,
   /\bprogram manager\b/i,
-  /\brecruiter\b/i,
+  /\brecruit(?:er|ing)\b/i,
   /\bsales\b/i,
   /\btalent\b/i,
   /\btreasury\b/i,
@@ -177,6 +148,10 @@ function listingText(listing) {
   return [listing.company, listing.title, listing.contextText].filter(Boolean).join('. ');
 }
 
+function roleText(listing) {
+  return [listing.title, listing.contextText].filter(Boolean).join('. ');
+}
+
 function scorePatterns(text, patterns) {
   return patterns.reduce((score, pattern) => score + (pattern.test(text) ? 1 : 0), 0);
 }
@@ -192,20 +167,20 @@ function averageVectors(vectors) {
   const output = new Float32Array(length);
 
   for (const vector of vectors) {
-    for (let i = 0; i < length; i += 1) {
-      output[i] += vector[i];
+    for (let index = 0; index < length; index += 1) {
+      output[index] += vector[index];
     }
   }
 
   let magnitude = 0;
-  for (let i = 0; i < length; i += 1) {
-    output[i] /= vectors.length;
-    magnitude += output[i] * output[i];
+  for (let index = 0; index < length; index += 1) {
+    output[index] /= vectors.length;
+    magnitude += output[index] * output[index];
   }
 
   magnitude = Math.sqrt(magnitude) || 1;
-  for (let i = 0; i < length; i += 1) {
-    output[i] /= magnitude;
+  for (let index = 0; index < length; index += 1) {
+    output[index] /= magnitude;
   }
 
   return output;
@@ -213,8 +188,8 @@ function averageVectors(vectors) {
 
 function dotProduct(left, right) {
   let score = 0;
-  for (let i = 0; i < left.length; i += 1) {
-    score += left[i] * right[i];
+  for (let index = 0; index < left.length; index += 1) {
+    score += left[index] * right[index];
   }
 
   return score;
@@ -270,34 +245,33 @@ async function getPrototypeEmbeddings() {
 }
 
 export function heuristicCategorizeListing(listing) {
-  const text = listingText(listing);
-  const jobScore = scorePatterns(text, JOB_PATTERNS);
+  const text = roleText(listing) || listingText(listing);
+  const internshipScore = scorePatterns(text, INTERNSHIP_PATTERNS);
+  const newGradScore = scorePatterns(text, NEW_GRAD_PATTERNS);
   const programScore = scorePatterns(text, PROGRAM_PATTERNS);
-  const eventScore = scorePatterns(text, EVENT_PATTERNS);
+  const programExclusionScore = scorePatterns(text, PROGRAM_EXCLUDE_PATTERNS);
+  const technicalScore = scorePatterns(text, TECHNICAL_ROLE_PATTERNS);
+  const nonTechnicalScore = scorePatterns(text, NON_TECHNICAL_PATTERNS);
+  const isRelevantCsRole = technicalScore > 0 && technicalScore >= nonTechnicalScore;
 
-  const categoryScores = {
-    job: jobScore,
-    program: programScore,
-    event: eventScore,
-  };
+  let category = 'other';
+  let rawCategoryScore = 0;
 
-  const [category, rawCategoryScore] = maxEntry(categoryScores);
-  const stageScores = Object.fromEntries(
-    Object.entries(JOB_STAGE_PATTERNS).map(([stage, patterns]) => [stage, scorePatterns(text, patterns)]),
-  );
-  const [jobTrack, rawStageScore] = maxEntry(stageScores);
-
-  const csPositiveScore = scorePatterns(text, CS_FOCUS_POSITIVE_PATTERNS);
-  const csNegativeScore = scorePatterns(text, CS_FOCUS_NEGATIVE_PATTERNS);
-  const isEarlyCareerJob = category === 'job' && rawStageScore > 0;
-  const isRelevantCsJob = isEarlyCareerJob && csPositiveScore > csNegativeScore;
+  if (internshipScore > 0 && isRelevantCsRole) {
+    category = 'internship';
+    rawCategoryScore = internshipScore + technicalScore;
+  } else if (newGradScore > 0 && isRelevantCsRole) {
+    category = 'new-grad';
+    rawCategoryScore = newGradScore + technicalScore;
+  } else if (programScore > 0 && programExclusionScore === 0) {
+    category = 'program';
+    rawCategoryScore = programScore;
+  }
 
   return {
-    category: rawCategoryScore > 0 ? category : 'other',
-    categoryConfidence: clampScore(rawCategoryScore / 3),
-    jobTrack: isEarlyCareerJob ? jobTrack : null,
-    isRelevantCsJob,
-    csConfidence: clampScore((csPositiveScore - csNegativeScore + 2) / 4),
+    category,
+    categoryConfidence: clampScore(rawCategoryScore / 4),
+    isRelevantCsRole,
   };
 }
 
@@ -317,44 +291,46 @@ export async function categorizeListings(listings) {
     return listings.flatMap((listing, index) => {
       const vector = vectors[index];
       const heuristic = heuristics[index];
-
       const semanticCategoryScores = Object.fromEntries(
         Object.entries(prototypeEmbeddings.category).map(([label, prototype]) => [label, dotProduct(vector, prototype)]),
       );
       const boostedCategoryScores = Object.fromEntries(
         Object.entries(semanticCategoryScores).map(([label, score]) => [
           label,
-          score + (heuristic.category === label ? 0.2 : 0),
+          score + (heuristic.category === label ? 0.25 : 0),
         ]),
       );
-      const [category, categoryScore] = maxEntry(boostedCategoryScores);
+      const [semanticCategory, categoryScore] = maxEntry(boostedCategoryScores);
+      const category = heuristic.category !== 'other'
+        && boostedCategoryScores[heuristic.category] >= categoryScore - 0.03
+        ? heuristic.category
+        : semanticCategory;
 
-      const stageScores = Object.fromEntries(
-        Object.entries(prototypeEmbeddings.stage).map(([label, prototype]) => [label, dotProduct(vector, prototype)]),
-      );
-      const [jobTrack, stageScore] = maxEntry(stageScores);
-
-      const includeScore = dotProduct(vector, prototypeEmbeddings.csFocus.include);
-      const excludeScore = dotProduct(vector, prototypeEmbeddings.csFocus.exclude);
-      const jobTrackIsEarlyCareer = category === 'job' && (
-        stageScore >= 0.34 || heuristic.jobTrack !== null
-      );
-      const isRelevantCsJob = jobTrackIsEarlyCareer && (
-        includeScore - excludeScore >= 0.04 || heuristic.isRelevantCsJob
-      );
-
-      if (category === 'job' && !isRelevantCsJob) {
+      if (!CATEGORY_ORDER.includes(category)) {
         return [];
       }
 
-      if (!CATEGORY_ORDER.includes(category)) {
+      const includeScore = dotProduct(vector, prototypeEmbeddings.csFocus.include);
+      const excludeScore = dotProduct(vector, prototypeEmbeddings.csFocus.exclude);
+      const isTechnicalBucket = category === 'internship' || category === 'new-grad';
+      const listingSummary = roleText(listing) || listingText(listing);
+      const nonTechnicalScore = scorePatterns(listingSummary, NON_TECHNICAL_PATTERNS);
+      const isRelevantCsRole = (
+        heuristic.isRelevantCsRole || includeScore - excludeScore >= 0.03
+      ) && nonTechnicalScore === 0;
+      const hasProgramExclusion = scorePatterns(listingSummary, PROGRAM_EXCLUDE_PATTERNS) > 0;
+
+      if (isTechnicalBucket && !isRelevantCsRole) {
+        return [];
+      }
+
+      if (category === 'program' && hasProgramExclusion && heuristic.category !== 'program') {
         return [];
       }
 
       return [{
         ...listing,
         category,
-        jobTrack: category === 'job' ? (heuristic.jobTrack ?? jobTrack) : null,
         categoryConfidence: clampScore((categoryScore + 1) / 2),
         classificationModel: MODEL_ID,
       }];
@@ -369,14 +345,13 @@ export async function categorizeListings(listings) {
         return [];
       }
 
-      if (heuristic.category === 'job' && !heuristic.isRelevantCsJob) {
+      if ((heuristic.category === 'internship' || heuristic.category === 'new-grad') && !heuristic.isRelevantCsRole) {
         return [];
       }
 
       return [{
         ...listing,
         category: heuristic.category,
-        jobTrack: heuristic.category === 'job' ? heuristic.jobTrack : null,
         categoryConfidence: heuristic.categoryConfidence,
         classificationModel: 'heuristic-fallback',
       }];

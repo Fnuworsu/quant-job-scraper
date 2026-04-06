@@ -5,70 +5,92 @@ import ListingsBoard, { type Listing } from './listings-board';
 
 export const dynamic = 'force-static';
 
-const CATEGORY_ORDER: Listing['category'][] = ['job', 'program', 'event'];
+const CATEGORY_ORDER: Listing['category'][] = ['internship', 'new-grad', 'program'];
 
 export default async function Home() {
-  let jobs: Listing[] = [];
+  let listings: Listing[] = [];
 
   try {
     const dataPath = path.join(process.cwd(), 'public', 'data.json');
     const fileContents = await fs.readFile(dataPath, 'utf8');
-    jobs = JSON.parse(fileContents);
+    listings = JSON.parse(fileContents);
   } catch (error) {
     console.warn('No data.json found or error parsing.', error);
   }
 
-  const categorizedJobs = jobs
-    .filter((job) => job.category !== null)
+  const categorizedListings = listings
+    .filter((listing): listing is Listing => CATEGORY_ORDER.includes(listing.category))
     .sort((left, right) => (
       (left.firstSeenAt ?? left.dateScraped).localeCompare(right.firstSeenAt ?? right.dateScraped)
     ));
+
   const groups = CATEGORY_ORDER.map((category) => ({
     category,
-    jobs: categorizedJobs.filter((job) => job.category === category),
+    jobs: categorizedListings.filter((listing) => listing.category === category),
   }));
+
   const featuredCompanies = Array.from(
-    new Set(categorizedJobs.map((job) => job.company)),
-  ).slice(0, 6);
-  const totalListings = categorizedJobs.length;
+    new Set(categorizedListings.map((listing) => listing.company)),
+  ).slice(0, 10);
+
+  const highlightCards = [
+    {
+      label: 'Internships',
+      value: groups.find((group) => group.category === 'internship')?.jobs.length ?? 0,
+      tone: 'internship',
+    },
+    {
+      label: 'New Grad',
+      value: groups.find((group) => group.category === 'new-grad')?.jobs.length ?? 0,
+      tone: 'new-grad',
+    },
+    {
+      label: 'Programs',
+      value: groups.find((group) => group.category === 'program')?.jobs.length ?? 0,
+      tone: 'program',
+    },
+  ] as const;
 
   return (
     <section className="hero">
       <div className="hero-shell">
-        <div className="hero-copy">
+        <div className="hero-card hero-card-primary">
           <p className="hero-eyebrow">Quant Board</p>
-          <h1 className="page-title">Quant jobs, programs, and events in one place.</h1>
+          <h1 className="page-title">A cleaner way to track quant internships, new grad roles, and programs.</h1>
           <p className="page-desc">
-            A simple board for tracking quant internships, new grad roles, programs, and recruiting events from top firms.
+            This board pulls direct postings from quant firms and keeps them organized, so you do not have to dig through career pages one by one.
           </p>
+
+          <div className="hero-pill-row" aria-label="Board highlights">
+            <span className="hero-pill">Direct posting links</span>
+            <span className="hero-pill">Student-focused roles</span>
+            <span className="hero-pill">Programs and events included</span>
+          </div>
         </div>
 
-        <aside className="hero-panel">
-          <p className="hero-panel-label">Board overview</p>
-          <div className="hero-stats">
-            <div className="hero-stat-card">
-              <span className="hero-stat-value">{groups[0]?.jobs.length ?? 0}</span>
-              <span className="hero-stat-label">Jobs</span>
-            </div>
-            <div className="hero-stat-card">
-              <span className="hero-stat-value">{groups[1]?.jobs.length ?? 0}</span>
-              <span className="hero-stat-label">Programs</span>
-            </div>
-            <div className="hero-stat-card">
-              <span className="hero-stat-value">{groups[2]?.jobs.length ?? 0}</span>
-              <span className="hero-stat-label">Events</span>
+        <aside className="hero-rail">
+          <div className="hero-card hero-card-secondary">
+            <p className="hero-panel-label">Board snapshot</p>
+            <div className="hero-note-grid">
+              {highlightCards.map((card) => (
+                <div className={`hero-note hero-note-${card.tone}`} key={card.label}>
+                  <span className="hero-note-label">{card.label}</span>
+                  <span className="hero-note-value">{card.value}</span>
+                </div>
+              ))}
             </div>
           </div>
 
-          <div className="hero-panel-section">
-            <p className="hero-panel-title">{totalListings} live listings right now</p>
-            <p className="hero-panel-copy">
-              Browse openings and opportunities across some of the most competitive quant firms, all in one board.
-            </p>
+          <div className="hero-card hero-card-secondary">
+            <p className="hero-panel-label">What is on the board</p>
+            <div className="hero-list">
+              <p>Internships and new grad openings that look relevant for CS, software, data, or quant-heavy students.</p>
+              <p>Programs, summits, fellowships, and recruiting events are grouped together in one tab.</p>
+            </div>
           </div>
 
-          <div className="hero-panel-section">
-            <p className="hero-panel-title">Firms on the board</p>
+          <div className="hero-card hero-card-secondary">
+            <p className="hero-panel-label">Firms showing up right now</p>
             <div className="company-cloud">
               {featuredCompanies.map((company) => (
                 <span className="company-chip" key={company}>{company}</span>
@@ -78,7 +100,7 @@ export default async function Home() {
         </aside>
       </div>
 
-      {categorizedJobs.length === 0 ? (
+      {categorizedListings.length === 0 ? (
         <div className="empty-state">
           No listings are available right now.
         </div>

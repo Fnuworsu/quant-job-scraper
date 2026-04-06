@@ -15,7 +15,15 @@ test('treats career hubs as non-direct links', () => {
     false,
   );
   assert.equal(
+    isLikelyDirectListingUrl('https://jobs.lever.co/belvederetrading?commitment=Intern'),
+    false,
+  );
+  assert.equal(
     isLikelyDirectListingUrl('https://www.canva.com/design/DAGpbGqu4iI/example/view'),
+    false,
+  );
+  assert.equal(
+    isLikelyDirectListingUrl('https://www.grahamcapital.com/research/example.pdf'),
     false,
   );
 });
@@ -126,8 +134,7 @@ test('drops legacy placeholder rows during merge while preserving direct listing
         company: 'Jane Street',
         title: 'Trading Intern',
         url: 'https://boards.greenhouse.io/janestreet/jobs/123456',
-        category: 'job',
-        jobTrack: 'internship',
+        category: 'internship',
         firstSeenAt: '2025-01-02T12:00:00.000Z',
         dateScraped: '2025-01-02T12:00:00.000Z',
       },
@@ -143,8 +150,7 @@ test('drops legacy placeholder rows during merge while preserving direct listing
         company: 'Jane Street',
         title: 'Trading Intern',
         url: 'https://boards.greenhouse.io/janestreet/jobs/123456',
-        category: 'job',
-        jobTrack: 'internship',
+        category: 'internship',
         firstSeenAt: '2025-01-01T12:00:00.000Z',
         dateScraped: '2025-01-01T12:00:00.000Z',
       },
@@ -156,11 +162,12 @@ test('drops legacy placeholder rows during merge while preserving direct listing
       company: 'Jane Street',
       title: 'Trading Intern',
       url: 'https://boards.greenhouse.io/janestreet/jobs/123456',
-      category: 'job',
-      jobTrack: 'internship',
+      category: 'internship',
+      jobTrack: null,
       categoryConfidence: null,
       classificationModel: null,
       firstSeenAt: '2025-01-01T12:00:00.000Z',
+      lastSeenAt: '2025-01-02T12:00:00.000Z',
       dateScraped: '2025-01-02T12:00:00.000Z',
     },
   ]);
@@ -173,8 +180,7 @@ test('merge keeps oldest firstSeenAt so listings sort oldest first', () => {
         company: 'Teza Technologies',
         title: 'Quant Internship',
         url: 'https://jobs.ashbyhq.com/teza/123',
-        category: 'job',
-        jobTrack: 'internship',
+        category: 'internship',
         firstSeenAt: '2025-01-03T12:00:00.000Z',
         dateScraped: '2025-01-04T12:00:00.000Z',
       },
@@ -193,4 +199,136 @@ test('merge keeps oldest firstSeenAt so listings sort oldest first', () => {
     'GQS PhD Fellowship',
     'Quant Internship',
   ]);
+});
+
+test('merge updates reposted listings when the URL changes but the title stays the same', () => {
+  const mergedJobs = mergeJobs(
+    [
+      {
+        company: 'Akuna Capital',
+        title: 'Software Engineer Intern - Python, Summer 2026',
+        url: 'https://akunacapital.com/careers/job/999/software-engineer-intern-python-summer-2026?gh_jid=999',
+        category: 'internship',
+        firstSeenAt: '2025-01-08T12:00:00.000Z',
+        dateScraped: '2025-01-08T12:00:00.000Z',
+      },
+    ],
+    [
+      {
+        company: 'Akuna Capital',
+        title: 'Software Engineer Intern - Python, Summer 2026',
+        url: 'https://akunacapital.com/careers/job/111/software-engineer-intern-python-summer-2026?gh_jid=111',
+        category: 'internship',
+        firstSeenAt: '2025-01-01T12:00:00.000Z',
+        lastSeenAt: '2025-01-02T12:00:00.000Z',
+        dateScraped: '2025-01-02T12:00:00.000Z',
+      },
+    ],
+  );
+
+  assert.equal(mergedJobs.length, 1);
+  assert.equal(
+    mergedJobs[0].url,
+    'https://akunacapital.com/careers/job/999/software-engineer-intern-python-summer-2026?gh_jid=999',
+  );
+  assert.equal(mergedJobs[0].firstSeenAt, '2025-01-01T12:00:00.000Z');
+  assert.equal(mergedJobs[0].lastSeenAt, '2025-01-08T12:00:00.000Z');
+});
+
+test('merge expires listings that have not been seen for more than two weeks', () => {
+  const mergedJobs = mergeJobs(
+    [
+      {
+        company: 'Citadel',
+        title: 'Launch Program',
+        url: 'https://www.citadel.com/careers/programs-and-events/launch-program',
+        category: 'program',
+        firstSeenAt: '2025-02-20T12:00:00.000Z',
+        dateScraped: '2025-02-20T12:00:00.000Z',
+      },
+    ],
+    [
+      {
+        company: 'Old Mission Capital',
+        title: 'Trading Internship',
+        url: 'https://boards.greenhouse.io/oldmission/jobs/123',
+        category: 'internship',
+        firstSeenAt: '2025-01-01T12:00:00.000Z',
+        lastSeenAt: '2025-02-01T12:00:00.000Z',
+        dateScraped: '2025-02-01T12:00:00.000Z',
+      },
+    ],
+  );
+
+  assert.deepEqual(mergedJobs.map((job) => job.company), ['Citadel']);
+});
+
+test('merge removes unseen listings immediately for companies that scraped successfully', () => {
+  const mergedJobs = mergeJobs(
+    [
+      {
+        company: 'Akuna Capital',
+        title: 'Software Engineer Intern - Python, Summer 2026',
+        url: 'https://akunacapital.com/careers/job/999/software-engineer-intern-python-summer-2026?gh_jid=999',
+        category: 'internship',
+        firstSeenAt: '2025-01-08T12:00:00.000Z',
+        dateScraped: '2025-01-08T12:00:00.000Z',
+      },
+    ],
+    [
+      {
+        company: 'Akuna Capital',
+        title: 'Campus Recruiter Chicago',
+        url: 'https://akunacapital.com/careers/job/7738888/campus-recruiter?gh_jid=7738888',
+        category: 'program',
+        firstSeenAt: '2025-01-01T12:00:00.000Z',
+        lastSeenAt: '2025-01-07T12:00:00.000Z',
+        dateScraped: '2025-01-07T12:00:00.000Z',
+      },
+    ],
+    1000,
+    {
+      successfulCompanies: new Set(['Akuna Capital']),
+    },
+  );
+
+  assert.deepEqual(mergedJobs.map((job) => job.title), [
+    'Software Engineer Intern - Python, Summer 2026',
+  ]);
+});
+
+test('buildJobsFromCandidates dedupes repeated cards that point to the same URL', () => {
+  const jobs = buildJobsFromCandidates(
+    {
+      name: 'Akuna Capital',
+      url: 'https://akunacapital.com/careers',
+    },
+    [
+      {
+        title: 'Software Engineer Intern - Python, Summer 2026',
+        href: 'https://akunacapital.com/careers/job/7055471/software-engineer-intern-python-summer-2026?gh_jid=7055471',
+        linkText: 'Software Engineer Intern - Python, Summer 2026',
+        linkOptions: [
+          {
+            href: 'https://akunacapital.com/careers/job/7055471/software-engineer-intern-python-summer-2026?gh_jid=7055471',
+            text: 'Software Engineer Intern - Python, Summer 2026',
+          },
+        ],
+      },
+      {
+        title: 'Software Engineer Intern - Python, Summer 2026 Chicago',
+        href: 'https://akunacapital.com/careers/job/7055471/software-engineer-intern-python-summer-2026?gh_jid=7055471',
+        linkText: 'Software Engineer Intern - Python, Summer 2026 Chicago',
+        linkOptions: [
+          {
+            href: 'https://akunacapital.com/careers/job/7055471/software-engineer-intern-python-summer-2026?gh_jid=7055471',
+            text: 'Software Engineer Intern - Python, Summer 2026 Chicago',
+          },
+        ],
+      },
+    ],
+  );
+
+  assert.equal(jobs.length, 1);
+  assert.equal(jobs[0].title, 'Software Engineer Intern - Python, Summer 2026 Chicago');
 });

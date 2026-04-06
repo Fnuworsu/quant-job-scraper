@@ -9,6 +9,11 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 const DATA_FILE = path.join(process.cwd(), 'public', 'data.json');
 const PREV_DATA_FILE = path.join(process.cwd(), 'public', 'data.prev.json');
+const CATEGORY_LABELS = {
+  internship: 'Internship',
+  'new-grad': 'New Grad',
+  program: 'Program',
+};
 
 async function notify() {
   if (!process.env.RESEND_API_KEY) {
@@ -47,7 +52,7 @@ async function notify() {
 
   let htmlBody = `<h1>New Quant Listings Detected</h1><ul>`;
   newJobs.slice(0, 10).forEach(job => {
-    const label = job.category ? ` [${job.category.toUpperCase()}]` : '';
+    const label = job.category ? ` [${CATEGORY_LABELS[job.category] ?? job.category}]` : '';
     htmlBody += `<li><strong>${job.company}</strong>${label}: <a href="${job.url}">${job.title}</a></li>`;
   });
   if (newJobs.length > 10) {

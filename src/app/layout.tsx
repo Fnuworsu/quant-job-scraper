@@ -4,7 +4,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Quant Board',
-  description: 'A simple board for quant jobs, programs, and events.',
+  description: 'A simple board for quant internships, new grad roles, and programs.',
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
               <span className="brand-mark">QB</span>
               <div>
                 <p className="brand-name">Quant Board</p>
-                <p className="brand-subtitle">Careers, programs, and events</p>
+                <p className="brand-subtitle">Internships, new grad roles, and programs</p>
               </div>
             </Link>
 
@@ -36,7 +36,7 @@ export default function RootLayout({
 
           <footer className="footer">
             <div className="footer-content">
-              <p className="footer-note">Copyright 2026 </p>
+              <p className="footer-note">Copyright Felix Noos</p>
             </div>
           </footer>
         </div>
