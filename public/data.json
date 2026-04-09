@@ -5,11 +5,11 @@
     "url": "https://www.gresearch.com/vacancies/insight-analyst",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.6738435751351664,
+    "categoryConfidence": 0.6748338600331412,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:49:45.480Z",
-    "lastSeenAt": "2026-04-09T01:31:11.227Z",
-    "dateScraped": "2026-04-09T01:31:11.227Z"
+    "lastSeenAt": "2026-04-09T04:31:11.709Z",
+    "dateScraped": "2026-04-09T04:31:11.709Z"
   },
   {
     "company": "G-Research",
@@ -17,11 +17,11 @@
     "url": "https://www.gresearch.com/vacancies/internship-in-quantitative-research",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8551409894253896,
+    "categoryConfidence": 0.847111272372287,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:49:45.480Z",
-    "lastSeenAt": "2026-04-09T01:31:11.227Z",
-    "dateScraped": "2026-04-09T01:31:11.227Z"
+    "lastSeenAt": "2026-04-09T04:31:11.709Z",
+    "dateScraped": "2026-04-09T04:31:11.709Z"
   },
   {
     "company": "Group One Trading",
@@ -32,8 +32,8 @@
     "categoryConfidence": 0.8093089577734198,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:50:06.582Z",
-    "lastSeenAt": "2026-04-09T01:31:35.173Z",
-    "dateScraped": "2026-04-09T01:31:35.173Z"
+    "lastSeenAt": "2026-04-09T04:31:40.787Z",
+    "dateScraped": "2026-04-09T04:31:40.787Z"
   },
   {
     "company": "Group One Trading",
@@ -44,8 +44,8 @@
     "categoryConfidence": 0.7940904731227122,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:50:06.582Z",
-    "lastSeenAt": "2026-04-09T01:31:35.173Z",
-    "dateScraped": "2026-04-09T01:31:35.173Z"
+    "lastSeenAt": "2026-04-09T04:31:40.787Z",
+    "dateScraped": "2026-04-09T04:31:40.787Z"
   },
   {
     "company": "Teza Technologies",
@@ -56,8 +56,8 @@
     "categoryConfidence": 0.8455761521991387,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:51:48.525Z",
-    "lastSeenAt": "2026-04-09T01:33:22.962Z",
-    "dateScraped": "2026-04-09T01:33:22.962Z"
+    "lastSeenAt": "2026-04-09T04:33:54.257Z",
+    "dateScraped": "2026-04-09T04:33:54.257Z"
   },
   {
     "company": "WorldQuant",
@@ -65,11 +65,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4069460006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8489971538190342,
+    "categoryConfidence": 0.8510178597892291,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-09T01:34:05.150Z",
-    "dateScraped": "2026-04-09T01:34:05.150Z"
+    "lastSeenAt": "2026-04-09T04:34:41.731Z",
+    "dateScraped": "2026-04-09T04:34:41.731Z"
   },
   {
     "company": "WorldQuant",
@@ -77,11 +77,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4084570006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8736672876954288,
+    "categoryConfidence": 0.8736800157830684,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-09T01:34:05.150Z",
-    "dateScraped": "2026-04-09T01:34:05.150Z"
+    "lastSeenAt": "2026-04-09T04:34:41.731Z",
+    "dateScraped": "2026-04-09T04:34:41.731Z"
   },
   {
     "company": "WorldQuant",
@@ -89,11 +89,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4655484006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9279522284707469,
+    "categoryConfidence": 0.9223863218777297,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-09T01:34:05.150Z",
-    "dateScraped": "2026-04-09T01:34:05.150Z"
+    "lastSeenAt": "2026-04-09T04:34:41.731Z",
+    "dateScraped": "2026-04-09T04:34:41.731Z"
   },
   {
     "company": "WorldQuant",
@@ -101,11 +101,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4434997006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.838128964045987,
+    "categoryConfidence": 0.8373724599951178,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-09T01:34:05.150Z",
-    "dateScraped": "2026-04-09T01:34:05.150Z"
+    "lastSeenAt": "2026-04-09T04:34:41.731Z",
+    "dateScraped": "2026-04-09T04:34:41.731Z"
   },
   {
     "company": "WorldQuant",
@@ -113,11 +113,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4652485006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9127622533388362,
+    "categoryConfidence": 0.9128733125540816,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-09T01:34:05.150Z",
-    "dateScraped": "2026-04-09T01:34:05.150Z"
+    "lastSeenAt": "2026-04-09T04:34:41.731Z",
+    "dateScraped": "2026-04-09T04:34:41.731Z"
   },
   {
     "company": "WorldQuant",
@@ -125,11 +125,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4314066006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9020689268017982,
+    "categoryConfidence": 0.9087380583640698,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-09T01:34:05.150Z",
-    "dateScraped": "2026-04-09T01:34:05.150Z"
+    "lastSeenAt": "2026-04-09T04:34:41.731Z",
+    "dateScraped": "2026-04-09T04:34:41.731Z"
   },
   {
     "company": "WorldQuant",
@@ -137,11 +137,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4648851006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9518142127344501,
+    "categoryConfidence": 0.9556311195464176,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-09T01:34:05.150Z",
-    "dateScraped": "2026-04-09T01:34:05.150Z"
+    "lastSeenAt": "2026-04-09T04:34:41.731Z",
+    "dateScraped": "2026-04-09T04:34:41.731Z"
   },
   {
     "company": "WorldQuant",
@@ -149,11 +149,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4572988006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9195933724841544,
+    "categoryConfidence": 0.9193808294310494,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-09T01:34:05.150Z",
-    "dateScraped": "2026-04-09T01:34:05.150Z"
+    "lastSeenAt": "2026-04-09T04:34:41.731Z",
+    "dateScraped": "2026-04-09T04:34:41.731Z"
   },
   {
     "company": "WorldQuant",
@@ -164,8 +164,8 @@
     "categoryConfidence": 0.8559408065200798,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-09T01:34:05.150Z",
-    "dateScraped": "2026-04-09T01:34:05.150Z"
+    "lastSeenAt": "2026-04-09T04:34:41.731Z",
+    "dateScraped": "2026-04-09T04:34:41.731Z"
   },
   {
     "company": "Citadel",
@@ -176,8 +176,8 @@
     "categoryConfidence": 0.7995391286897957,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-08T22:34:23.989Z",
-    "lastSeenAt": "2026-04-09T01:30:23.312Z",
-    "dateScraped": "2026-04-09T01:30:23.312Z"
+    "lastSeenAt": "2026-04-09T04:30:19.029Z",
+    "dateScraped": "2026-04-09T04:30:19.029Z"
   },
   {
     "company": "Citadel",
@@ -188,8 +188,8 @@
     "categoryConfidence": 0.8579906759130658,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-08T22:34:23.989Z",
-    "lastSeenAt": "2026-04-09T01:30:23.312Z",
-    "dateScraped": "2026-04-09T01:30:23.312Z"
+    "lastSeenAt": "2026-04-09T04:30:19.029Z",
+    "dateScraped": "2026-04-09T04:30:19.029Z"
   },
   {
     "company": "Citadel",
@@ -200,8 +200,8 @@
     "categoryConfidence": 0.8452836814933765,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-08T22:34:23.989Z",
-    "lastSeenAt": "2026-04-09T01:30:23.312Z",
-    "dateScraped": "2026-04-09T01:30:23.312Z"
+    "lastSeenAt": "2026-04-09T04:30:19.029Z",
+    "dateScraped": "2026-04-09T04:30:19.029Z"
   },
   {
     "company": "Optiver",
@@ -212,8 +212,8 @@
     "categoryConfidence": 0.9417147561356818,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-08T22:36:24.394Z",
-    "lastSeenAt": "2026-04-09T01:32:21.853Z",
-    "dateScraped": "2026-04-09T01:32:21.853Z"
+    "lastSeenAt": "2026-04-09T04:32:39.867Z",
+    "dateScraped": "2026-04-09T04:32:39.867Z"
   },
   {
     "company": "Optiver",
@@ -224,8 +224,8 @@
     "categoryConfidence": 0.9387895982481664,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-08T22:36:24.394Z",
-    "lastSeenAt": "2026-04-09T01:32:21.853Z",
-    "dateScraped": "2026-04-09T01:32:21.853Z"
+    "lastSeenAt": "2026-04-09T04:32:39.867Z",
+    "dateScraped": "2026-04-09T04:32:39.867Z"
   },
   {
     "company": "Optiver",
@@ -236,7 +236,7 @@
     "categoryConfidence": 0.9464121011338227,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-08T22:36:24.394Z",
-    "lastSeenAt": "2026-04-09T01:32:21.853Z",
-    "dateScraped": "2026-04-09T01:32:21.853Z"
+    "lastSeenAt": "2026-04-09T04:32:39.867Z",
+    "dateScraped": "2026-04-09T04:32:39.867Z"
   }
 ]
