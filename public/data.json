@@ -5,11 +5,11 @@
     "url": "https://www.gresearch.com/vacancies/insight-analyst",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.6569236820562308,
+    "categoryConfidence": 0.6832887075681064,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:49:45.480Z",
-    "lastSeenAt": "2026-04-23T04:55:39.808Z",
-    "dateScraped": "2026-04-23T04:55:39.808Z"
+    "lastSeenAt": "2026-04-23T07:27:54.507Z",
+    "dateScraped": "2026-04-23T07:27:54.507Z"
   },
   {
     "company": "G-Research",
@@ -17,11 +17,11 @@
     "url": "https://www.gresearch.com/vacancies/internship-in-quantitative-research",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8485185692718341,
+    "categoryConfidence": 0.8520478101305095,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:49:45.480Z",
-    "lastSeenAt": "2026-04-23T04:55:39.808Z",
-    "dateScraped": "2026-04-23T04:55:39.808Z"
+    "lastSeenAt": "2026-04-23T07:27:54.507Z",
+    "dateScraped": "2026-04-23T07:27:54.507Z"
   },
   {
     "company": "Group One Trading",
@@ -32,8 +32,8 @@
     "categoryConfidence": 0.7907452181115212,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:50:06.582Z",
-    "lastSeenAt": "2026-04-23T04:56:05.933Z",
-    "dateScraped": "2026-04-23T04:56:05.933Z"
+    "lastSeenAt": "2026-04-23T07:28:14.129Z",
+    "dateScraped": "2026-04-23T07:28:14.129Z"
   },
   {
     "company": "WorldQuant",
@@ -41,11 +41,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4069460006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8461029883866891,
+    "categoryConfidence": 0.8542378635149451,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-23T04:58:28.506Z",
-    "dateScraped": "2026-04-23T04:58:28.506Z"
+    "lastSeenAt": "2026-04-23T07:30:31.757Z",
+    "dateScraped": "2026-04-23T07:30:31.757Z"
   },
   {
     "company": "WorldQuant",
@@ -53,11 +53,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4084570006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8697169583089549,
+    "categoryConfidence": 0.8764268840965312,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-23T04:58:28.506Z",
-    "dateScraped": "2026-04-23T04:58:28.506Z"
+    "lastSeenAt": "2026-04-23T07:30:31.757Z",
+    "dateScraped": "2026-04-23T07:30:31.757Z"
   },
   {
     "company": "WorldQuant",
@@ -65,11 +65,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4655484006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9244081850224454,
+    "categoryConfidence": 0.9292748540002513,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-23T04:58:28.506Z",
-    "dateScraped": "2026-04-23T04:58:28.506Z"
+    "lastSeenAt": "2026-04-23T07:30:31.757Z",
+    "dateScraped": "2026-04-23T07:30:31.757Z"
   },
   {
     "company": "WorldQuant",
@@ -77,11 +77,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4434997006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8356161560511413,
+    "categoryConfidence": 0.8381550535916651,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-23T04:58:28.506Z",
-    "dateScraped": "2026-04-23T04:58:28.506Z"
+    "lastSeenAt": "2026-04-23T07:30:31.757Z",
+    "dateScraped": "2026-04-23T07:30:31.757Z"
   },
   {
     "company": "WorldQuant",
@@ -89,11 +89,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4652485006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9139223171535813,
+    "categoryConfidence": 0.9119339211496229,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-23T04:58:28.506Z",
-    "dateScraped": "2026-04-23T04:58:28.506Z"
+    "lastSeenAt": "2026-04-23T07:30:31.757Z",
+    "dateScraped": "2026-04-23T07:30:31.757Z"
   },
   {
     "company": "WorldQuant",
@@ -101,11 +101,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4314066006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9047676483053357,
+    "categoryConfidence": 0.9084355285987283,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-23T04:58:28.506Z",
-    "dateScraped": "2026-04-23T04:58:28.506Z"
+    "lastSeenAt": "2026-04-23T07:30:31.757Z",
+    "dateScraped": "2026-04-23T07:30:31.757Z"
   },
   {
     "company": "WorldQuant",
@@ -113,11 +113,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4648851006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9543752328414603,
+    "categoryConfidence": 0.9556982264099823,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-23T04:58:28.506Z",
-    "dateScraped": "2026-04-23T04:58:28.506Z"
+    "lastSeenAt": "2026-04-23T07:30:31.757Z",
+    "dateScraped": "2026-04-23T07:30:31.757Z"
   },
   {
     "company": "WorldQuant",
@@ -128,8 +128,8 @@
     "categoryConfidence": 0.8559408065200798,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-04-23T04:58:28.506Z",
-    "dateScraped": "2026-04-23T04:58:28.506Z"
+    "lastSeenAt": "2026-04-23T07:30:31.757Z",
+    "dateScraped": "2026-04-23T07:30:31.757Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -140,8 +140,8 @@
     "categoryConfidence": 0.8244019312256627,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-16T15:22:55.279Z",
-    "lastSeenAt": "2026-04-23T04:55:06.547Z",
-    "dateScraped": "2026-04-23T04:55:06.547Z"
+    "lastSeenAt": "2026-04-23T07:27:21.134Z",
+    "dateScraped": "2026-04-23T07:27:21.134Z"
   },
   {
     "company": "Group One Trading",
@@ -152,8 +152,8 @@
     "categoryConfidence": 0.7913289203493504,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-17T18:52:23.184Z",
-    "lastSeenAt": "2026-04-23T04:56:05.933Z",
-    "dateScraped": "2026-04-23T04:56:05.933Z"
+    "lastSeenAt": "2026-04-23T07:28:14.129Z",
+    "dateScraped": "2026-04-23T07:28:14.129Z"
   },
   {
     "company": "Optiver",
@@ -164,7 +164,43 @@
     "categoryConfidence": 0.8952054428968677,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-23T02:02:55.544Z",
-    "lastSeenAt": "2026-04-23T04:56:48.934Z",
-    "dateScraped": "2026-04-23T04:56:48.934Z"
+    "lastSeenAt": "2026-04-23T07:28:57.491Z",
+    "dateScraped": "2026-04-23T07:28:57.491Z"
+  },
+  {
+    "company": "Citadel",
+    "title": "Citadel Associate Program",
+    "url": "https://www.citadel.com/careers/investing/citadel-associate-program",
+    "category": "program",
+    "jobTrack": null,
+    "categoryConfidence": 0.7995391286897957,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "firstSeenAt": "2026-04-23T07:27:14.160Z",
+    "lastSeenAt": "2026-04-23T07:27:14.160Z",
+    "dateScraped": "2026-04-23T07:27:14.160Z"
+  },
+  {
+    "company": "Citadel",
+    "title": "GQS PhD Fellowship",
+    "url": "https://www.citadel.com/careers/programs-and-events/gqs-phd-fellowship",
+    "category": "program",
+    "jobTrack": null,
+    "categoryConfidence": 0.8579906759130658,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "firstSeenAt": "2026-04-23T07:27:14.160Z",
+    "lastSeenAt": "2026-04-23T07:27:14.160Z",
+    "dateScraped": "2026-04-23T07:27:14.160Z"
+  },
+  {
+    "company": "Citadel",
+    "title": "PhD Summit",
+    "url": "https://www.citadel.com/careers/programs-and-events/phd-summit",
+    "category": "program",
+    "jobTrack": null,
+    "categoryConfidence": 0.8452836814933765,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "firstSeenAt": "2026-04-23T07:27:14.160Z",
+    "lastSeenAt": "2026-04-23T07:27:14.160Z",
+    "dateScraped": "2026-04-23T07:27:14.160Z"
   }
 ]
