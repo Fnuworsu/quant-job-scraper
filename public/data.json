@@ -8,8 +8,8 @@
     "categoryConfidence": 0.5,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T20:01:38.418Z",
-    "dateScraped": "2026-06-04T20:01:38.418Z"
+    "lastSeenAt": "2026-06-04T21:33:41.359Z",
+    "dateScraped": "2026-06-04T21:33:41.359Z"
   },
   {
     "company": "WorldQuant",
@@ -20,8 +20,8 @@
     "categoryConfidence": 0.75,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T20:01:38.418Z",
-    "dateScraped": "2026-06-04T20:01:38.418Z"
+    "lastSeenAt": "2026-06-04T21:33:41.359Z",
+    "dateScraped": "2026-06-04T21:33:41.359Z"
   },
   {
     "company": "WorldQuant",
@@ -32,8 +32,8 @@
     "categoryConfidence": 0.75,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T20:01:38.418Z",
-    "dateScraped": "2026-06-04T20:01:38.418Z"
+    "lastSeenAt": "2026-06-04T21:33:41.359Z",
+    "dateScraped": "2026-06-04T21:33:41.359Z"
   },
   {
     "company": "WorldQuant",
@@ -44,8 +44,8 @@
     "categoryConfidence": 0.75,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T20:01:38.418Z",
-    "dateScraped": "2026-06-04T20:01:38.418Z"
+    "lastSeenAt": "2026-06-04T21:33:41.359Z",
+    "dateScraped": "2026-06-04T21:33:41.359Z"
   },
   {
     "company": "WorldQuant",
@@ -56,8 +56,8 @@
     "categoryConfidence": 0.75,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T20:01:38.418Z",
-    "dateScraped": "2026-06-04T20:01:38.418Z"
+    "lastSeenAt": "2026-06-04T21:33:41.359Z",
+    "dateScraped": "2026-06-04T21:33:41.359Z"
   },
   {
     "company": "WorldQuant",
@@ -68,8 +68,8 @@
     "categoryConfidence": 0.75,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T20:01:38.418Z",
-    "dateScraped": "2026-06-04T20:01:38.418Z"
+    "lastSeenAt": "2026-06-04T21:33:41.359Z",
+    "dateScraped": "2026-06-04T21:33:41.359Z"
   },
   {
     "company": "WorldQuant",
@@ -80,8 +80,8 @@
     "categoryConfidence": 0.75,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T20:01:38.418Z",
-    "dateScraped": "2026-06-04T20:01:38.418Z"
+    "lastSeenAt": "2026-06-04T21:33:41.359Z",
+    "dateScraped": "2026-06-04T21:33:41.359Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -92,8 +92,8 @@
     "categoryConfidence": 0.25,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-24T20:40:28.788Z",
-    "lastSeenAt": "2026-06-04T19:58:03.928Z",
-    "dateScraped": "2026-06-04T19:58:03.928Z"
+    "lastSeenAt": "2026-06-04T21:30:06.458Z",
+    "dateScraped": "2026-06-04T21:30:06.458Z"
   },
   {
     "company": "WorldQuant",
@@ -104,56 +104,8 @@
     "categoryConfidence": 1,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-05-15T13:54:10.977Z",
-    "lastSeenAt": "2026-06-04T20:01:38.418Z",
-    "dateScraped": "2026-06-04T20:01:38.418Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "Citadel Associate Program",
-    "url": "https://www.citadel.com/careers/investing/citadel-associate-program",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.25,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T12:41:18.749Z",
-    "lastSeenAt": "2026-06-04T19:57:58.844Z",
-    "dateScraped": "2026-06-04T19:57:58.844Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "GQS PhD Fellowship",
-    "url": "https://www.citadel.com/careers/programs-and-events/gqs-phd-fellowship",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.25,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T12:41:18.749Z",
-    "lastSeenAt": "2026-06-04T19:57:58.844Z",
-    "dateScraped": "2026-06-04T19:57:58.844Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "PhD Summit",
-    "url": "https://www.citadel.com/careers/programs-and-events/phd-summit",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.25,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T12:41:18.749Z",
-    "lastSeenAt": "2026-06-04T19:57:58.844Z",
-    "dateScraped": "2026-06-04T19:57:58.844Z"
-  },
-  {
-    "company": "Chicago Trading Company",
-    "title": "Associate Engineer 2026 Campus Chicago Trading Company (CTC) is a premier proprietary trading firm specializing in options market making",
-    "url": "http://www.chicagotrading.com/posting?req=4698402005",
-    "category": "new-grad",
-    "jobTrack": null,
-    "categoryConfidence": 0.75,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T16:49:48.001Z",
-    "lastSeenAt": "2026-06-04T19:57:56.220Z",
-    "dateScraped": "2026-06-04T19:57:56.220Z"
+    "lastSeenAt": "2026-06-04T21:33:41.359Z",
+    "dateScraped": "2026-06-04T21:33:41.359Z"
   },
   {
     "company": "Gelber Group",
@@ -164,8 +116,8 @@
     "categoryConfidence": 1,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-06-04T19:58:48.830Z",
-    "lastSeenAt": "2026-06-04T19:58:48.830Z",
-    "dateScraped": "2026-06-04T19:58:48.830Z"
+    "lastSeenAt": "2026-06-04T21:30:51.782Z",
+    "dateScraped": "2026-06-04T21:30:51.782Z"
   },
   {
     "company": "Gelber Group",
@@ -176,8 +128,8 @@
     "categoryConfidence": 1,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-06-04T19:58:48.830Z",
-    "lastSeenAt": "2026-06-04T19:58:48.830Z",
-    "dateScraped": "2026-06-04T19:58:48.830Z"
+    "lastSeenAt": "2026-06-04T21:30:51.782Z",
+    "dateScraped": "2026-06-04T21:30:51.782Z"
   },
   {
     "company": "Gelber Group",
@@ -188,8 +140,8 @@
     "categoryConfidence": 1,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-06-04T19:58:48.830Z",
-    "lastSeenAt": "2026-06-04T19:58:48.830Z",
-    "dateScraped": "2026-06-04T19:58:48.830Z"
+    "lastSeenAt": "2026-06-04T21:30:51.782Z",
+    "dateScraped": "2026-06-04T21:30:51.782Z"
   },
   {
     "company": "Group One Trading",
@@ -200,8 +152,8 @@
     "categoryConfidence": 0.75,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-06-04T19:59:00.852Z",
-    "lastSeenAt": "2026-06-04T19:59:00.852Z",
-    "dateScraped": "2026-06-04T19:59:00.852Z"
+    "lastSeenAt": "2026-06-04T21:31:03.028Z",
+    "dateScraped": "2026-06-04T21:31:03.028Z"
   },
   {
     "company": "Group One Trading",
@@ -212,8 +164,8 @@
     "categoryConfidence": 0.75,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-06-04T19:59:00.852Z",
-    "lastSeenAt": "2026-06-04T19:59:00.852Z",
-    "dateScraped": "2026-06-04T19:59:00.852Z"
+    "lastSeenAt": "2026-06-04T21:31:03.028Z",
+    "dateScraped": "2026-06-04T21:31:03.028Z"
   },
   {
     "company": "TransMarket Group",
@@ -224,8 +176,8 @@
     "categoryConfidence": 1,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-06-04T20:01:02.549Z",
-    "lastSeenAt": "2026-06-04T20:01:02.549Z",
-    "dateScraped": "2026-06-04T20:01:02.549Z"
+    "lastSeenAt": "2026-06-04T21:33:04.918Z",
+    "dateScraped": "2026-06-04T21:33:04.918Z"
   },
   {
     "company": "TransMarket Group",
@@ -236,7 +188,7 @@
     "categoryConfidence": 1,
     "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-06-04T20:01:02.549Z",
-    "lastSeenAt": "2026-06-04T20:01:02.549Z",
-    "dateScraped": "2026-06-04T20:01:02.549Z"
+    "lastSeenAt": "2026-06-04T21:33:04.918Z",
+    "dateScraped": "2026-06-04T21:33:04.918Z"
   }
 ]
