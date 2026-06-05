@@ -5,11 +5,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4069460006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.5,
-    "classificationModel": "heuristic-fallback",
+    "categoryConfidence": 0.8512110986523099,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T23:09:15.656Z",
-    "dateScraped": "2026-06-04T23:09:15.656Z"
+    "lastSeenAt": "2026-06-05T02:49:00.673Z",
+    "dateScraped": "2026-06-05T02:49:00.673Z"
   },
   {
     "company": "WorldQuant",
@@ -17,11 +17,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4084570006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.75,
-    "classificationModel": "heuristic-fallback",
+    "categoryConfidence": 0.8737285074891166,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T23:09:15.656Z",
-    "dateScraped": "2026-06-04T23:09:15.656Z"
+    "lastSeenAt": "2026-06-05T02:49:00.673Z",
+    "dateScraped": "2026-06-05T02:49:00.673Z"
   },
   {
     "company": "WorldQuant",
@@ -29,11 +29,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4655484006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.75,
-    "classificationModel": "heuristic-fallback",
+    "categoryConfidence": 0.9257095948062835,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T23:09:15.656Z",
-    "dateScraped": "2026-06-04T23:09:15.656Z"
+    "lastSeenAt": "2026-06-05T02:49:00.673Z",
+    "dateScraped": "2026-06-05T02:49:00.673Z"
   },
   {
     "company": "WorldQuant",
@@ -41,11 +41,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4434997006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.75,
-    "classificationModel": "heuristic-fallback",
+    "categoryConfidence": 0.8420698590692595,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T23:09:15.656Z",
-    "dateScraped": "2026-06-04T23:09:15.656Z"
+    "lastSeenAt": "2026-06-05T02:49:00.673Z",
+    "dateScraped": "2026-06-05T02:49:00.673Z"
   },
   {
     "company": "WorldQuant",
@@ -53,11 +53,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4652485006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.75,
-    "classificationModel": "heuristic-fallback",
+    "categoryConfidence": 0.9200810979744404,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T23:09:15.656Z",
-    "dateScraped": "2026-06-04T23:09:15.656Z"
+    "lastSeenAt": "2026-06-05T02:49:00.673Z",
+    "dateScraped": "2026-06-05T02:49:00.673Z"
   },
   {
     "company": "WorldQuant",
@@ -65,11 +65,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4314066006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.75,
-    "classificationModel": "heuristic-fallback",
+    "categoryConfidence": 0.8712107600293032,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T23:09:15.656Z",
-    "dateScraped": "2026-06-04T23:09:15.656Z"
+    "lastSeenAt": "2026-06-05T02:49:00.673Z",
+    "dateScraped": "2026-06-05T02:49:00.673Z"
   },
   {
     "company": "WorldQuant",
@@ -77,11 +77,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4648851006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.75,
-    "classificationModel": "heuristic-fallback",
+    "categoryConfidence": 0.9548044673599847,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-06-04T23:09:15.656Z",
-    "dateScraped": "2026-06-04T23:09:15.656Z"
+    "lastSeenAt": "2026-06-05T02:49:00.673Z",
+    "dateScraped": "2026-06-05T02:49:00.673Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -89,11 +89,11 @@
     "url": "https://boards.greenhouse.io/point72/jobs/8492784002?gh_jid=8492784002",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.25,
-    "classificationModel": "heuristic-fallback",
+    "categoryConfidence": 0.8244019332756262,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-24T20:40:28.788Z",
-    "lastSeenAt": "2026-06-04T23:05:06.807Z",
-    "dateScraped": "2026-06-04T23:05:06.807Z"
+    "lastSeenAt": "2026-06-05T02:45:41.636Z",
+    "dateScraped": "2026-06-05T02:45:41.636Z"
   },
   {
     "company": "WorldQuant",
@@ -101,130 +101,22 @@
     "url": "https://www.worldquant.com/career-listing?id=4393652006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 1,
-    "classificationModel": "heuristic-fallback",
+    "categoryConfidence": 0.8920700650756107,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-05-15T13:54:10.977Z",
-    "lastSeenAt": "2026-06-04T23:09:15.656Z",
-    "dateScraped": "2026-06-04T23:09:15.656Z"
+    "lastSeenAt": "2026-06-05T02:49:00.673Z",
+    "dateScraped": "2026-06-05T02:49:00.673Z"
   },
   {
-    "company": "Gelber Group",
-    "title": "Software Engineer Internship (Technical Operations Team) - Summer 2026",
-    "url": "https://job-boards.greenhouse.io/gelbergroup/jobs/4652887006",
-    "category": "internship",
+    "company": "Chicago Trading Company",
+    "title": "Associate Engineer 2026 Campus Chicago Trading Company (CTC) is a premier proprietary trading firm specializing in options market making",
+    "url": "http://www.chicagotrading.com/posting?req=4698402005",
+    "category": "new-grad",
     "jobTrack": null,
-    "categoryConfidence": 1,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T19:58:48.830Z",
-    "lastSeenAt": "2026-06-04T23:06:17.959Z",
-    "dateScraped": "2026-06-04T23:06:17.959Z"
-  },
-  {
-    "company": "Gelber Group",
-    "title": "Software Engineering Internship (Backoffice Team) - Summer 2026",
-    "url": "https://job-boards.greenhouse.io/gelbergroup/jobs/4657272006",
-    "category": "internship",
-    "jobTrack": null,
-    "categoryConfidence": 1,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T19:58:48.830Z",
-    "lastSeenAt": "2026-06-04T23:06:17.959Z",
-    "dateScraped": "2026-06-04T23:06:17.959Z"
-  },
-  {
-    "company": "Gelber Group",
-    "title": "Trading Internship - Boston Summer 2026",
-    "url": "https://job-boards.greenhouse.io/gelbergroup/jobs/4679858006",
-    "category": "internship",
-    "jobTrack": null,
-    "categoryConfidence": 1,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T19:58:48.830Z",
-    "lastSeenAt": "2026-06-04T23:06:17.959Z",
-    "dateScraped": "2026-06-04T23:06:17.959Z"
-  },
-  {
-    "company": "Group One Trading",
-    "title": "Dynamex Trading Operations Intern",
-    "url": "https://group1.applicantpro.com/jobs/4084898",
-    "category": "internship",
-    "jobTrack": null,
-    "categoryConfidence": 0.75,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T19:59:00.852Z",
-    "lastSeenAt": "2026-06-04T23:06:31.956Z",
-    "dateScraped": "2026-06-04T23:06:31.956Z"
-  },
-  {
-    "company": "Group One Trading",
-    "title": "Trading Analyst Intern",
-    "url": "https://group1.applicantpro.com/jobs/3859850",
-    "category": "internship",
-    "jobTrack": null,
-    "categoryConfidence": 0.75,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T19:59:00.852Z",
-    "lastSeenAt": "2026-06-04T23:06:31.956Z",
-    "dateScraped": "2026-06-04T23:06:31.956Z"
-  },
-  {
-    "company": "TransMarket Group",
-    "title": "Quantitative Trader Intern",
-    "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151569007?gh_jid=5151569007",
-    "category": "internship",
-    "jobTrack": null,
-    "categoryConfidence": 1,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T20:01:02.549Z",
-    "lastSeenAt": "2026-06-04T23:08:36.936Z",
-    "dateScraped": "2026-06-04T23:08:36.936Z"
-  },
-  {
-    "company": "TransMarket Group",
-    "title": "DevOps/SRE Intern",
-    "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007?gh_jid=5151577007",
-    "category": "internship",
-    "jobTrack": null,
-    "categoryConfidence": 1,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T20:01:02.549Z",
-    "lastSeenAt": "2026-06-04T23:08:36.936Z",
-    "dateScraped": "2026-06-04T23:08:36.936Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "Citadel Associate Program",
-    "url": "https://www.citadel.com/careers/investing/citadel-associate-program",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.25,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T23:05:00.908Z",
-    "lastSeenAt": "2026-06-04T23:05:00.908Z",
-    "dateScraped": "2026-06-04T23:05:00.908Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "GQS PhD Fellowship",
-    "url": "https://www.citadel.com/careers/programs-and-events/gqs-phd-fellowship",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.25,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T23:05:00.908Z",
-    "lastSeenAt": "2026-06-04T23:05:00.908Z",
-    "dateScraped": "2026-06-04T23:05:00.908Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "PhD Summit",
-    "url": "https://www.citadel.com/careers/programs-and-events/phd-summit",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.25,
-    "classificationModel": "heuristic-fallback",
-    "firstSeenAt": "2026-06-04T23:05:00.908Z",
-    "lastSeenAt": "2026-06-04T23:05:00.908Z",
-    "dateScraped": "2026-06-04T23:05:00.908Z"
+    "categoryConfidence": 0.841361525126209,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "firstSeenAt": "2026-06-05T02:45:31.925Z",
+    "lastSeenAt": "2026-06-05T02:45:31.925Z",
+    "dateScraped": "2026-06-05T02:45:31.925Z"
   }
 ]
