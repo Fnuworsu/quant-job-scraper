@@ -5,11 +5,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4069460006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8551016654227386,
+    "categoryConfidence": 0.8464192993441906,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-04T15:04:29.159Z",
-    "dateScraped": "2026-07-04T15:04:29.159Z"
+    "lastSeenAt": "2026-07-04T17:01:37.655Z",
+    "dateScraped": "2026-07-04T17:01:37.655Z"
   },
   {
     "company": "WorldQuant",
@@ -17,11 +17,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4084570006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8750330489430751,
+    "categoryConfidence": 0.8783133728194247,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-04T15:04:29.159Z",
-    "dateScraped": "2026-07-04T15:04:29.159Z"
+    "lastSeenAt": "2026-07-04T17:01:37.655Z",
+    "dateScraped": "2026-07-04T17:01:37.655Z"
   },
   {
     "company": "WorldQuant",
@@ -29,11 +29,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4655484006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9216418815908036,
+    "categoryConfidence": 0.9266682728986596,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-04T15:04:29.159Z",
-    "dateScraped": "2026-07-04T15:04:29.159Z"
+    "lastSeenAt": "2026-07-04T17:01:37.655Z",
+    "dateScraped": "2026-07-04T17:01:37.655Z"
   },
   {
     "company": "WorldQuant",
@@ -41,11 +41,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4434997006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8392127607564615,
+    "categoryConfidence": 0.8405545848836709,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-04T15:04:29.159Z",
-    "dateScraped": "2026-07-04T15:04:29.159Z"
+    "lastSeenAt": "2026-07-04T17:01:37.655Z",
+    "dateScraped": "2026-07-04T17:01:37.655Z"
   },
   {
     "company": "WorldQuant",
@@ -53,11 +53,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4652485006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9100213642818226,
+    "categoryConfidence": 0.9203100526222447,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-04T15:04:29.159Z",
-    "dateScraped": "2026-07-04T15:04:29.159Z"
+    "lastSeenAt": "2026-07-04T17:01:37.655Z",
+    "dateScraped": "2026-07-04T17:01:37.655Z"
   },
   {
     "company": "WorldQuant",
@@ -65,11 +65,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4314066006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8702014638284788,
+    "categoryConfidence": 0.8752102332669178,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-04T15:04:29.159Z",
-    "dateScraped": "2026-07-04T15:04:29.159Z"
+    "lastSeenAt": "2026-07-04T17:01:37.655Z",
+    "dateScraped": "2026-07-04T17:01:37.655Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -80,8 +80,8 @@
     "categoryConfidence": 0.8244019312256627,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-24T20:40:28.788Z",
-    "lastSeenAt": "2026-07-04T15:01:08.350Z",
-    "dateScraped": "2026-07-04T15:01:08.350Z"
+    "lastSeenAt": "2026-07-04T16:57:45.401Z",
+    "dateScraped": "2026-07-04T16:57:45.401Z"
   },
   {
     "company": "Headlands Technologies",
@@ -92,8 +92,8 @@
     "categoryConfidence": 0.774286388272655,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-06-13T02:45:22.072Z",
-    "lastSeenAt": "2026-07-04T15:02:05.765Z",
-    "dateScraped": "2026-07-04T15:02:05.765Z"
+    "lastSeenAt": "2026-07-04T16:58:45.096Z",
+    "dateScraped": "2026-07-04T16:58:45.096Z"
   },
   {
     "company": "Group One Trading",
@@ -104,8 +104,8 @@
     "categoryConfidence": 0.7916457754260606,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-06-24T19:30:52.838Z",
-    "lastSeenAt": "2026-07-04T15:02:00.312Z",
-    "dateScraped": "2026-07-04T15:02:00.312Z"
+    "lastSeenAt": "2026-07-04T16:58:38.885Z",
+    "dateScraped": "2026-07-04T16:58:38.885Z"
   },
   {
     "company": "Optiver",
@@ -116,8 +116,8 @@
     "categoryConfidence": 0.9336182495942068,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-01T19:45:35.817Z",
-    "lastSeenAt": "2026-07-04T15:02:44.391Z",
-    "dateScraped": "2026-07-04T15:02:44.391Z"
+    "lastSeenAt": "2026-07-04T16:59:25.523Z",
+    "dateScraped": "2026-07-04T16:59:25.523Z"
   },
   {
     "company": "Optiver",
@@ -128,8 +128,8 @@
     "categoryConfidence": 0.9161319283679925,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-01T19:45:35.817Z",
-    "lastSeenAt": "2026-07-04T15:02:44.391Z",
-    "dateScraped": "2026-07-04T15:02:44.391Z"
+    "lastSeenAt": "2026-07-04T16:59:25.523Z",
+    "dateScraped": "2026-07-04T16:59:25.523Z"
   },
   {
     "company": "Optiver",
@@ -140,8 +140,8 @@
     "categoryConfidence": 0.9584528279929941,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-01T19:45:35.817Z",
-    "lastSeenAt": "2026-07-04T15:02:44.391Z",
-    "dateScraped": "2026-07-04T15:02:44.391Z"
+    "lastSeenAt": "2026-07-04T16:59:25.523Z",
+    "dateScraped": "2026-07-04T16:59:25.523Z"
   },
   {
     "company": "Optiver",
@@ -152,8 +152,8 @@
     "categoryConfidence": 0.962676389205674,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-01T19:45:35.817Z",
-    "lastSeenAt": "2026-07-04T15:02:44.391Z",
-    "dateScraped": "2026-07-04T15:02:44.391Z"
+    "lastSeenAt": "2026-07-04T16:59:25.523Z",
+    "dateScraped": "2026-07-04T16:59:25.523Z"
   },
   {
     "company": "Optiver",
@@ -164,8 +164,8 @@
     "categoryConfidence": 0.9212772888875103,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-01T19:45:35.817Z",
-    "lastSeenAt": "2026-07-04T15:02:44.391Z",
-    "dateScraped": "2026-07-04T15:02:44.391Z"
+    "lastSeenAt": "2026-07-04T16:59:25.523Z",
+    "dateScraped": "2026-07-04T16:59:25.523Z"
   },
   {
     "company": "Optiver",
@@ -176,8 +176,8 @@
     "categoryConfidence": 0.924070523705621,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-01T19:45:35.817Z",
-    "lastSeenAt": "2026-07-04T15:02:44.391Z",
-    "dateScraped": "2026-07-04T15:02:44.391Z"
+    "lastSeenAt": "2026-07-04T16:59:25.523Z",
+    "dateScraped": "2026-07-04T16:59:25.523Z"
   },
   {
     "company": "Optiver",
@@ -188,8 +188,8 @@
     "categoryConfidence": 0.929657492267431,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-01T19:45:35.817Z",
-    "lastSeenAt": "2026-07-04T15:02:44.391Z",
-    "dateScraped": "2026-07-04T15:02:44.391Z"
+    "lastSeenAt": "2026-07-04T16:59:25.523Z",
+    "dateScraped": "2026-07-04T16:59:25.523Z"
   },
   {
     "company": "Optiver",
@@ -200,8 +200,8 @@
     "categoryConfidence": 0.913459900257961,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-01T19:45:35.817Z",
-    "lastSeenAt": "2026-07-04T15:02:44.391Z",
-    "dateScraped": "2026-07-04T15:02:44.391Z"
+    "lastSeenAt": "2026-07-04T16:59:25.523Z",
+    "dateScraped": "2026-07-04T16:59:25.523Z"
   },
   {
     "company": "Optiver",
@@ -212,44 +212,8 @@
     "categoryConfidence": 0.8995431067365673,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-03T13:50:48.022Z",
-    "lastSeenAt": "2026-07-04T15:02:44.391Z",
-    "dateScraped": "2026-07-04T15:02:44.391Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "Citadel Associate Program",
-    "url": "https://www.citadel.com/careers/investing/citadel-associate-program",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.7995391286897957,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-07-04T15:01:02.240Z",
-    "lastSeenAt": "2026-07-04T15:01:02.240Z",
-    "dateScraped": "2026-07-04T15:01:02.240Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "GQS PhD Fellowship",
-    "url": "https://www.citadel.com/careers/programs-and-events/gqs-phd-fellowship",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.8579906759130658,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-07-04T15:01:02.240Z",
-    "lastSeenAt": "2026-07-04T15:01:02.240Z",
-    "dateScraped": "2026-07-04T15:01:02.240Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "PhD Summit",
-    "url": "https://www.citadel.com/careers/programs-and-events/phd-summit",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.8452836814933765,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-07-04T15:01:02.240Z",
-    "lastSeenAt": "2026-07-04T15:01:02.240Z",
-    "dateScraped": "2026-07-04T15:01:02.240Z"
+    "lastSeenAt": "2026-07-04T16:59:25.523Z",
+    "dateScraped": "2026-07-04T16:59:25.523Z"
   },
   {
     "company": "G-Research",
@@ -257,10 +221,22 @@
     "url": "https://www.gresearch.com/vacancies/insight-analyst",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.7042152455540349,
+    "categoryConfidence": 0.6907699533431098,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-04T15:01:42.069Z",
-    "lastSeenAt": "2026-07-04T15:01:42.069Z",
-    "dateScraped": "2026-07-04T15:01:42.069Z"
+    "lastSeenAt": "2026-07-04T16:58:19.752Z",
+    "dateScraped": "2026-07-04T16:58:19.752Z"
+  },
+  {
+    "company": "Peak6",
+    "title": "Staff, Program Management",
+    "url": "https://peak6-prod.ongig.com/jobs/information-technology/austin-texas-united-states-of-america/staff-program-management/JR104124",
+    "category": "program",
+    "jobTrack": null,
+    "categoryConfidence": 0.7637535142397381,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "firstSeenAt": "2026-07-04T16:59:31.764Z",
+    "lastSeenAt": "2026-07-04T16:59:31.764Z",
+    "dateScraped": "2026-07-04T16:59:31.764Z"
   }
 ]
