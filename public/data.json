@@ -5,11 +5,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4069460006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8484183476586691,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.5,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-22T08:19:25.175Z",
-    "dateScraped": "2026-07-22T08:19:25.175Z"
+    "lastSeenAt": "2026-07-22T11:48:04.582Z",
+    "dateScraped": "2026-07-22T11:48:04.582Z"
   },
   {
     "company": "WorldQuant",
@@ -17,11 +17,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4084570006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8683391186065679,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.75,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-22T08:19:25.175Z",
-    "dateScraped": "2026-07-22T08:19:25.175Z"
+    "lastSeenAt": "2026-07-22T11:48:04.582Z",
+    "dateScraped": "2026-07-22T11:48:04.582Z"
   },
   {
     "company": "WorldQuant",
@@ -29,11 +29,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4655484006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9227547742398534,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.75,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-22T08:19:25.175Z",
-    "dateScraped": "2026-07-22T08:19:25.175Z"
+    "lastSeenAt": "2026-07-22T11:48:04.582Z",
+    "dateScraped": "2026-07-22T11:48:04.582Z"
   },
   {
     "company": "WorldQuant",
@@ -41,11 +41,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4434997006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.837559777906655,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.75,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-22T08:19:25.175Z",
-    "dateScraped": "2026-07-22T08:19:25.175Z"
+    "lastSeenAt": "2026-07-22T11:48:04.582Z",
+    "dateScraped": "2026-07-22T11:48:04.582Z"
   },
   {
     "company": "WorldQuant",
@@ -53,11 +53,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4652485006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9130496620009108,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.75,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-22T08:19:25.175Z",
-    "dateScraped": "2026-07-22T08:19:25.175Z"
+    "lastSeenAt": "2026-07-22T11:48:04.582Z",
+    "dateScraped": "2026-07-22T11:48:04.582Z"
   },
   {
     "company": "WorldQuant",
@@ -65,11 +65,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4314066006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8673946987486933,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.75,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-07-22T08:19:25.175Z",
-    "dateScraped": "2026-07-22T08:19:25.175Z"
+    "lastSeenAt": "2026-07-22T11:48:04.582Z",
+    "dateScraped": "2026-07-22T11:48:04.582Z"
   },
   {
     "company": "Headlands Technologies",
@@ -77,11 +77,11 @@
     "url": "https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4227566009",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.774286388272655,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 1,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-06-13T02:45:22.072Z",
-    "lastSeenAt": "2026-07-22T05:19:44.837Z",
-    "dateScraped": "2026-07-22T05:19:44.837Z"
+    "lastSeenAt": "2026-07-22T11:45:42.946Z",
+    "dateScraped": "2026-07-22T11:45:42.946Z"
   },
   {
     "company": "Group One Trading",
@@ -89,11 +89,11 @@
     "url": "https://group1.applicantpro.com/jobs/3859850",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.7826142889015624,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.5,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-06-24T19:30:52.838Z",
-    "lastSeenAt": "2026-07-22T08:15:55.422Z",
-    "dateScraped": "2026-07-22T08:15:55.422Z"
+    "lastSeenAt": "2026-07-22T11:45:36.595Z",
+    "dateScraped": "2026-07-22T11:45:36.595Z"
   },
   {
     "company": "Akuna Capital",
@@ -101,11 +101,11 @@
     "url": "https://akunacapital.com/careers/job/8018880/hardware-engineer-intern-summer-2027?gh_jid=8018880",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9004572898481364,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.75,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-13T19:15:45.844Z",
-    "lastSeenAt": "2026-07-22T08:12:52.281Z",
-    "dateScraped": "2026-07-22T08:12:52.281Z"
+    "lastSeenAt": "2026-07-22T11:43:35.563Z",
+    "dateScraped": "2026-07-22T11:43:35.563Z"
   },
   {
     "company": "Akuna Capital",
@@ -113,11 +113,11 @@
     "url": "https://akunacapital.com/careers/job/8018856/platform-engineer-intern-summer-2027?gh_jid=8018856",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8948442550697528,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.75,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-13T19:15:45.844Z",
-    "lastSeenAt": "2026-07-22T08:12:52.281Z",
-    "dateScraped": "2026-07-22T08:12:52.281Z"
+    "lastSeenAt": "2026-07-22T11:43:35.563Z",
+    "dateScraped": "2026-07-22T11:43:35.563Z"
   },
   {
     "company": "Akuna Capital",
@@ -125,11 +125,11 @@
     "url": "https://akunacapital.com/careers/job/8021481/quantitative-development-strategy-intern-summer-2027?gh_jid=8021481",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8319356829495452,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.75,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-13T19:15:45.844Z",
-    "lastSeenAt": "2026-07-22T08:12:52.281Z",
-    "dateScraped": "2026-07-22T08:12:52.281Z"
+    "lastSeenAt": "2026-07-22T11:43:35.563Z",
+    "dateScraped": "2026-07-22T11:43:35.563Z"
   },
   {
     "company": "Akuna Capital",
@@ -137,11 +137,11 @@
     "url": "https://akunacapital.com/careers/job/8036614/quantitative-research-intern-summer-2027?gh_jid=8036614",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8548448681715275,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 1,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-13T19:15:45.844Z",
-    "lastSeenAt": "2026-07-22T08:12:52.281Z",
-    "dateScraped": "2026-07-22T08:12:52.281Z"
+    "lastSeenAt": "2026-07-22T11:43:35.563Z",
+    "dateScraped": "2026-07-22T11:43:35.563Z"
   },
   {
     "company": "Akuna Capital",
@@ -149,11 +149,11 @@
     "url": "https://akunacapital.com/careers/job/8018886/software-engineer-intern---c-net-desktop-summer-2027?gh_jid=8018886",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.867621810269547,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 1,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-13T19:15:45.844Z",
-    "lastSeenAt": "2026-07-22T08:12:52.281Z",
-    "dateScraped": "2026-07-22T08:12:52.281Z"
+    "lastSeenAt": "2026-07-22T11:43:35.563Z",
+    "dateScraped": "2026-07-22T11:43:35.563Z"
   },
   {
     "company": "Akuna Capital",
@@ -161,11 +161,11 @@
     "url": "https://akunacapital.com/careers/job/8018847/software-engineer-intern---c-summer-2027?gh_jid=8018847",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9001173752374007,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 1,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-13T19:15:45.844Z",
-    "lastSeenAt": "2026-07-22T08:12:52.281Z",
-    "dateScraped": "2026-07-22T08:12:52.281Z"
+    "lastSeenAt": "2026-07-22T11:43:35.563Z",
+    "dateScraped": "2026-07-22T11:43:35.563Z"
   },
   {
     "company": "Akuna Capital",
@@ -173,11 +173,11 @@
     "url": "https://akunacapital.com/careers/job/8018893/software-engineer-intern---full-stack-web-summer-2027?gh_jid=8018893",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.90629063669292,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 1,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-13T19:15:45.844Z",
-    "lastSeenAt": "2026-07-22T08:12:52.281Z",
-    "dateScraped": "2026-07-22T08:12:52.281Z"
+    "lastSeenAt": "2026-07-22T11:43:35.563Z",
+    "dateScraped": "2026-07-22T11:43:35.563Z"
   },
   {
     "company": "Akuna Capital",
@@ -185,11 +185,11 @@
     "url": "https://akunacapital.com/careers/job/8018853/software-engineer-intern---python-summer-2027?gh_jid=8018853",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8899401452018614,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 1,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-13T19:15:45.844Z",
-    "lastSeenAt": "2026-07-22T08:12:52.281Z",
-    "dateScraped": "2026-07-22T08:12:52.281Z"
+    "lastSeenAt": "2026-07-22T11:43:35.563Z",
+    "dateScraped": "2026-07-22T11:43:35.563Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -197,11 +197,11 @@
     "url": "https://boards.greenhouse.io/point72/jobs/8492784002?gh_jid=8492784002",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.8244019312256627,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.25,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-14T17:07:42.948Z",
-    "lastSeenAt": "2026-07-22T08:14:33.733Z",
-    "dateScraped": "2026-07-22T08:14:33.733Z"
+    "lastSeenAt": "2026-07-22T11:44:43.601Z",
+    "dateScraped": "2026-07-22T11:44:43.601Z"
   },
   {
     "company": "G-Research",
@@ -209,11 +209,11 @@
     "url": "https://www.gresearch.com/vacancies/insight-analyst",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.6664017510945327,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.25,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-15T13:22:05.640Z",
-    "lastSeenAt": "2026-07-22T08:15:35.922Z",
-    "dateScraped": "2026-07-22T08:15:35.922Z"
+    "lastSeenAt": "2026-07-22T11:45:18.437Z",
+    "dateScraped": "2026-07-22T11:45:18.437Z"
   },
   {
     "company": "Optiver",
@@ -221,11 +221,11 @@
     "url": "https://www.optiver.com/join-us/jobs/technology/austin/graduate-fpga-engineer-2027-start-austin",
     "category": "new-grad",
     "jobTrack": null,
-    "categoryConfidence": 0.8944125322065155,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.5,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-21T13:24:56.106Z",
-    "lastSeenAt": "2026-07-22T08:17:39.656Z",
-    "dateScraped": "2026-07-22T08:17:39.656Z"
+    "lastSeenAt": "2026-07-22T11:46:20.703Z",
+    "dateScraped": "2026-07-22T11:46:20.703Z"
   },
   {
     "company": "Optiver",
@@ -233,11 +233,11 @@
     "url": "https://www.optiver.com/join-us/jobs/technology/chicago/graduate-fpga-engineer-2027-start-chicago",
     "category": "new-grad",
     "jobTrack": null,
-    "categoryConfidence": 0.8963361724984793,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.5,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-21T13:24:56.106Z",
-    "lastSeenAt": "2026-07-22T08:17:39.656Z",
-    "dateScraped": "2026-07-22T08:17:39.656Z"
+    "lastSeenAt": "2026-07-22T11:46:20.703Z",
+    "dateScraped": "2026-07-22T11:46:20.703Z"
   },
   {
     "company": "Optiver",
@@ -245,10 +245,94 @@
     "url": "https://www.optiver.com/join-us/jobs/technology/austin/fpga-engineer-intern-summer-2027-austin",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9347077292764621,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "categoryConfidence": 0.75,
+    "classificationModel": "heuristic-fallback",
     "firstSeenAt": "2026-07-21T15:32:10.851Z",
-    "lastSeenAt": "2026-07-22T08:17:39.656Z",
-    "dateScraped": "2026-07-22T08:17:39.656Z"
+    "lastSeenAt": "2026-07-22T11:46:20.703Z",
+    "dateScraped": "2026-07-22T11:46:20.703Z"
+  },
+  {
+    "company": "Citadel",
+    "title": "Citadel Associate Program",
+    "url": "https://www.citadel.com/careers/investing/citadel-associate-program",
+    "category": "program",
+    "jobTrack": null,
+    "categoryConfidence": 0.25,
+    "classificationModel": "heuristic-fallback",
+    "firstSeenAt": "2026-07-22T11:44:38.304Z",
+    "lastSeenAt": "2026-07-22T11:44:38.304Z",
+    "dateScraped": "2026-07-22T11:44:38.304Z"
+  },
+  {
+    "company": "Citadel",
+    "title": "GQS PhD Fellowship",
+    "url": "https://www.citadel.com/careers/programs-and-events/gqs-phd-fellowship",
+    "category": "program",
+    "jobTrack": null,
+    "categoryConfidence": 0.25,
+    "classificationModel": "heuristic-fallback",
+    "firstSeenAt": "2026-07-22T11:44:38.304Z",
+    "lastSeenAt": "2026-07-22T11:44:38.304Z",
+    "dateScraped": "2026-07-22T11:44:38.304Z"
+  },
+  {
+    "company": "Citadel",
+    "title": "PhD Summit",
+    "url": "https://www.citadel.com/careers/programs-and-events/phd-summit",
+    "category": "program",
+    "jobTrack": null,
+    "categoryConfidence": 0.25,
+    "classificationModel": "heuristic-fallback",
+    "firstSeenAt": "2026-07-22T11:44:38.304Z",
+    "lastSeenAt": "2026-07-22T11:44:38.304Z",
+    "dateScraped": "2026-07-22T11:44:38.304Z"
+  },
+  {
+    "company": "Optiver",
+    "title": "Quantitative Trading Internship (Singapore) - 2027",
+    "url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/singapore/quantitative-trading-internship-singapore-2027",
+    "category": "internship",
+    "jobTrack": null,
+    "categoryConfidence": 0.75,
+    "classificationModel": "heuristic-fallback",
+    "firstSeenAt": "2026-07-22T11:46:20.703Z",
+    "lastSeenAt": "2026-07-22T11:46:20.703Z",
+    "dateScraped": "2026-07-22T11:46:20.703Z"
+  },
+  {
+    "company": "Optiver",
+    "title": "Graduate Equity Analyst (2027 Start - Chicago)",
+    "url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/graduate-equity-analyst-2027-start-chicago",
+    "category": "new-grad",
+    "jobTrack": null,
+    "categoryConfidence": 0.5,
+    "classificationModel": "heuristic-fallback",
+    "firstSeenAt": "2026-07-22T11:46:20.703Z",
+    "lastSeenAt": "2026-07-22T11:46:20.703Z",
+    "dateScraped": "2026-07-22T11:46:20.703Z"
+  },
+  {
+    "company": "TransMarket Group",
+    "title": "Quantitative Trader Intern",
+    "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151569007?gh_jid=5151569007",
+    "category": "internship",
+    "jobTrack": null,
+    "categoryConfidence": 1,
+    "classificationModel": "heuristic-fallback",
+    "firstSeenAt": "2026-07-22T11:47:37.682Z",
+    "lastSeenAt": "2026-07-22T11:47:37.682Z",
+    "dateScraped": "2026-07-22T11:47:37.682Z"
+  },
+  {
+    "company": "TransMarket Group",
+    "title": "DevOps/SRE Intern",
+    "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007?gh_jid=5151577007",
+    "category": "internship",
+    "jobTrack": null,
+    "categoryConfidence": 1,
+    "classificationModel": "heuristic-fallback",
+    "firstSeenAt": "2026-07-22T11:47:37.682Z",
+    "lastSeenAt": "2026-07-22T11:47:37.682Z",
+    "dateScraped": "2026-07-22T11:47:37.682Z"
   }
 ]
