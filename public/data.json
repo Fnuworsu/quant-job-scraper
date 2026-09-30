@@ -5,11 +5,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4069460006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8491422120405834,
+    "categoryConfidence": 0.8462839303005727,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-09-30T14:33:59.969Z",
-    "dateScraped": "2026-09-30T14:33:59.969Z"
+    "lastSeenAt": "2026-09-30T20:31:21.831Z",
+    "dateScraped": "2026-09-30T20:31:21.831Z"
   },
   {
     "company": "WorldQuant",
@@ -17,11 +17,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4084570006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.871654809681065,
+    "categoryConfidence": 0.8692729040997274,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-09-30T14:33:59.969Z",
-    "dateScraped": "2026-09-30T14:33:59.969Z"
+    "lastSeenAt": "2026-09-30T20:31:21.831Z",
+    "dateScraped": "2026-09-30T20:31:21.831Z"
   },
   {
     "company": "WorldQuant",
@@ -29,11 +29,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4652485006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9132258277265488,
+    "categoryConfidence": 0.9176652746975171,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-09-30T14:33:59.969Z",
-    "dateScraped": "2026-09-30T14:33:59.969Z"
+    "lastSeenAt": "2026-09-30T20:31:21.831Z",
+    "dateScraped": "2026-09-30T20:31:21.831Z"
   },
   {
     "company": "Headlands Technologies",
@@ -41,11 +41,11 @@
     "url": "https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4227566009",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.7826339287001951,
+    "categoryConfidence": 0.7826339225911385,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-06-13T02:45:22.072Z",
-    "lastSeenAt": "2026-09-30T14:31:24.437Z",
-    "dateScraped": "2026-09-30T14:31:24.437Z"
+    "lastSeenAt": "2026-09-30T20:28:48.679Z",
+    "dateScraped": "2026-09-30T20:28:48.679Z"
   },
   {
     "company": "Group One Trading",
@@ -53,11 +53,11 @@
     "url": "https://group1.applicantpro.com/jobs/4192883",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8433609819971081,
+    "categoryConfidence": 0.8433609859848071,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-06-24T19:30:52.838Z",
-    "lastSeenAt": "2026-09-30T14:31:18.797Z",
-    "dateScraped": "2026-09-30T14:31:18.797Z"
+    "lastSeenAt": "2026-09-30T20:28:42.584Z",
+    "dateScraped": "2026-09-30T20:28:42.584Z"
   },
   {
     "company": "PDT Partners",
@@ -65,11 +65,11 @@
     "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9107491036029958,
+    "categoryConfidence": 0.9107491121871891,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-24T22:59:08.674Z",
-    "lastSeenAt": "2026-09-30T14:32:07.692Z",
-    "dateScraped": "2026-09-30T14:32:07.692Z"
+    "lastSeenAt": "2026-09-30T20:29:31.079Z",
+    "dateScraped": "2026-09-30T20:29:31.079Z"
   },
   {
     "company": "PDT Partners",
@@ -77,11 +77,11 @@
     "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8083292",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8770156044649231,
+    "categoryConfidence": 0.8770156114486639,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-24T22:59:08.674Z",
-    "lastSeenAt": "2026-09-30T14:32:07.692Z",
-    "dateScraped": "2026-09-30T14:32:07.692Z"
+    "lastSeenAt": "2026-09-30T20:29:31.079Z",
+    "dateScraped": "2026-09-30T20:29:31.079Z"
   },
   {
     "company": "Akuna Capital",
@@ -89,11 +89,11 @@
     "url": "https://akunacapital.com/careers/job/8018856/platform-engineer-intern-summer-2027?gh_jid=8018856",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8948442299612711,
+    "categoryConfidence": 0.8948442550697528,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-09-30T14:28:57.654Z",
-    "dateScraped": "2026-09-30T14:28:57.654Z"
+    "lastSeenAt": "2026-09-30T20:26:22.789Z",
+    "dateScraped": "2026-09-30T20:26:22.789Z"
   },
   {
     "company": "Akuna Capital",
@@ -101,11 +101,11 @@
     "url": "https://akunacapital.com/careers/job/8021481/quantitative-development-strategy-intern-summer-2027?gh_jid=8021481",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8319356737849688,
+    "categoryConfidence": 0.8319356829495452,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-09-30T14:28:57.654Z",
-    "dateScraped": "2026-09-30T14:28:57.654Z"
+    "lastSeenAt": "2026-09-30T20:26:22.789Z",
+    "dateScraped": "2026-09-30T20:26:22.789Z"
   },
   {
     "company": "Akuna Capital",
@@ -113,11 +113,11 @@
     "url": "https://akunacapital.com/careers/job/8036614/quantitative-research-intern-summer-2027?gh_jid=8036614",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8548448720564861,
+    "categoryConfidence": 0.8548448681715275,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-09-30T14:28:57.654Z",
-    "dateScraped": "2026-09-30T14:28:57.654Z"
+    "lastSeenAt": "2026-09-30T20:26:22.789Z",
+    "dateScraped": "2026-09-30T20:26:22.789Z"
   },
   {
     "company": "Akuna Capital",
@@ -125,11 +125,11 @@
     "url": "https://akunacapital.com/careers/job/8018886/software-engineer-intern---c-net-desktop-summer-2027?gh_jid=8018886",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8676218082204739,
+    "categoryConfidence": 0.867621810269547,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-09-30T14:28:57.654Z",
-    "dateScraped": "2026-09-30T14:28:57.654Z"
+    "lastSeenAt": "2026-09-30T20:26:22.789Z",
+    "dateScraped": "2026-09-30T20:26:22.789Z"
   },
   {
     "company": "Akuna Capital",
@@ -137,11 +137,11 @@
     "url": "https://akunacapital.com/careers/job/8018847/software-engineer-intern---c-summer-2027?gh_jid=8018847",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9001173684623502,
+    "categoryConfidence": 0.9001173752374007,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-09-30T14:28:57.654Z",
-    "dateScraped": "2026-09-30T14:28:57.654Z"
+    "lastSeenAt": "2026-09-30T20:26:22.789Z",
+    "dateScraped": "2026-09-30T20:26:22.789Z"
   },
   {
     "company": "Akuna Capital",
@@ -149,11 +149,11 @@
     "url": "https://akunacapital.com/careers/job/8018893/software-engineer-intern---full-stack-web-summer-2027?gh_jid=8018893",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.906290625452806,
+    "categoryConfidence": 0.90629063669292,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-09-30T14:28:57.654Z",
-    "dateScraped": "2026-09-30T14:28:57.654Z"
+    "lastSeenAt": "2026-09-30T20:26:22.789Z",
+    "dateScraped": "2026-09-30T20:26:22.789Z"
   },
   {
     "company": "Akuna Capital",
@@ -161,11 +161,11 @@
     "url": "https://akunacapital.com/careers/job/8018853/software-engineer-intern---python-summer-2027?gh_jid=8018853",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8899401382287824,
+    "categoryConfidence": 0.8899401452018614,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-09-30T14:28:57.654Z",
-    "dateScraped": "2026-09-30T14:28:57.654Z"
+    "lastSeenAt": "2026-09-30T20:26:22.789Z",
+    "dateScraped": "2026-09-30T20:26:22.789Z"
   },
   {
     "company": "Group One Trading",
@@ -173,11 +173,11 @@
     "url": "https://group1.applicantpro.com/jobs/4200875",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8506458536105767,
+    "categoryConfidence": 0.8506458584219836,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-09T14:06:51.682Z",
-    "lastSeenAt": "2026-09-30T14:31:18.797Z",
-    "dateScraped": "2026-09-30T14:31:18.797Z"
+    "lastSeenAt": "2026-09-30T20:28:42.584Z",
+    "dateScraped": "2026-09-30T20:28:42.584Z"
   },
   {
     "company": "Group One Trading",
@@ -185,11 +185,11 @@
     "url": "https://group1.applicantpro.com/jobs/4202590",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8453619188050955,
+    "categoryConfidence": 0.8453619145460296,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-10T14:01:39.875Z",
-    "lastSeenAt": "2026-09-30T14:31:18.797Z",
-    "dateScraped": "2026-09-30T14:31:18.797Z"
+    "lastSeenAt": "2026-09-30T20:28:42.584Z",
+    "dateScraped": "2026-09-30T20:28:42.584Z"
   },
   {
     "company": "Group One Trading",
@@ -197,11 +197,11 @@
     "url": "https://group1.applicantpro.com/jobs/4205954",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8500925931563246,
+    "categoryConfidence": 0.8500926010336922,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-14T16:07:53.157Z",
-    "lastSeenAt": "2026-09-30T14:31:18.797Z",
-    "dateScraped": "2026-09-30T14:31:18.797Z"
+    "lastSeenAt": "2026-09-30T20:28:42.584Z",
+    "dateScraped": "2026-09-30T20:28:42.584Z"
   },
   {
     "company": "Optiver",
@@ -209,35 +209,11 @@
     "url": "https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/new-york/graduate-quantitative-researcher-phd-2027-start",
     "category": "new-grad",
     "jobTrack": null,
-    "categoryConfidence": 0.9188038068576379,
+    "categoryConfidence": 0.9188038111981738,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-23T19:25:31.325Z",
-    "lastSeenAt": "2026-09-30T14:32:02.727Z",
-    "dateScraped": "2026-09-30T14:32:02.727Z"
-  },
-  {
-    "company": "G-Research",
-    "title": "Liquidity Program ManagerLondon",
-    "url": "https://www.gresearch.com/vacancies/liquidity-program-manager",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.6640443846564659,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-09-25T23:02:01.942Z",
-    "lastSeenAt": "2026-09-30T14:30:59.861Z",
-    "dateScraped": "2026-09-30T14:30:59.861Z"
-  },
-  {
-    "company": "G-Research",
-    "title": "Insight AnalystLondon",
-    "url": "https://www.gresearch.com/vacancies/insight-analyst",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.6646388538035131,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-09-25T23:02:01.942Z",
-    "lastSeenAt": "2026-09-30T14:30:59.861Z",
-    "dateScraped": "2026-09-30T14:30:59.861Z"
+    "lastSeenAt": "2026-09-30T20:29:24.783Z",
+    "dateScraped": "2026-09-30T20:29:24.783Z"
   },
   {
     "company": "Gelber Group",
@@ -245,11 +221,11 @@
     "url": "https://job-boards.greenhouse.io/gelbergroup/jobs/4716779006",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.774740897178323,
+    "categoryConfidence": 0.77474089205567,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-26T20:30:23.827Z",
-    "lastSeenAt": "2026-09-30T14:31:05.614Z",
-    "dateScraped": "2026-09-30T14:31:05.614Z"
+    "lastSeenAt": "2026-09-30T20:28:30.029Z",
+    "dateScraped": "2026-09-30T20:28:30.029Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -257,22 +233,46 @@
     "url": "https://boards.greenhouse.io/point72/jobs/8492784002?gh_jid=8492784002",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.8244019332756262,
+    "categoryConfidence": 0.8244019312256627,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-29T21:45:17.192Z",
-    "lastSeenAt": "2026-09-30T14:30:20.881Z",
-    "dateScraped": "2026-09-30T14:30:20.881Z"
+    "lastSeenAt": "2026-09-30T20:27:40.118Z",
+    "dateScraped": "2026-09-30T20:27:40.118Z"
   },
   {
-    "company": "Peak6",
-    "title": "Campus Student Founder / Teacher",
-    "url": "https://peak6-prod.ongig.com/jobs/marketing/austin-texas-united-states-of-america/campus-student-founder-teacher/JR105125",
+    "company": "3Red Partners",
+    "title": "Graduate Quantitative Researcher (2027 Incoming Graduate, Full-Time)",
+    "url": "https://job-boards.greenhouse.io/3redpartners/jobs/8624128002",
     "category": "new-grad",
     "jobTrack": null,
-    "categoryConfidence": 0.7258717957479888,
+    "categoryConfidence": 0.9190403298206837,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-09-30T14:32:10.083Z",
-    "lastSeenAt": "2026-09-30T14:32:10.083Z",
-    "dateScraped": "2026-09-30T14:32:10.083Z"
+    "firstSeenAt": "2026-09-30T20:26:17.061Z",
+    "lastSeenAt": "2026-09-30T20:26:17.061Z",
+    "dateScraped": "2026-09-30T20:26:17.061Z"
+  },
+  {
+    "company": "3Red Partners",
+    "title": "Graduate C++ Developer (2027 Incoming Graduate, Full-Time)",
+    "url": "https://job-boards.greenhouse.io/3redpartners/jobs/8631086002",
+    "category": "new-grad",
+    "jobTrack": null,
+    "categoryConfidence": 0.8748779251294743,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "firstSeenAt": "2026-09-30T20:26:17.061Z",
+    "lastSeenAt": "2026-09-30T20:26:17.061Z",
+    "dateScraped": "2026-09-30T20:26:17.061Z"
+  },
+  {
+    "company": "3Red Partners",
+    "title": "Graduate Trader (2027 Incoming Graduate, Full-Time)",
+    "url": "https://job-boards.greenhouse.io/3redpartners/jobs/8634612002",
+    "category": "new-grad",
+    "jobTrack": null,
+    "categoryConfidence": 0.8905041340001134,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "firstSeenAt": "2026-09-30T20:26:17.061Z",
+    "lastSeenAt": "2026-09-30T20:26:17.061Z",
+    "dateScraped": "2026-09-30T20:26:17.061Z"
   }
 ]
