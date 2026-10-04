@@ -5,11 +5,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4069460006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8466493084875713,
+    "categoryConfidence": 0.8519117852208801,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-10-04T00:22:55.674Z",
-    "dateScraped": "2026-10-04T00:22:55.674Z"
+    "lastSeenAt": "2026-10-04T07:42:33.666Z",
+    "dateScraped": "2026-10-04T07:42:33.666Z"
   },
   {
     "company": "WorldQuant",
@@ -17,11 +17,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4084570006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8711261125925635,
+    "categoryConfidence": 0.8709019730489869,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-10-04T00:22:55.674Z",
-    "dateScraped": "2026-10-04T00:22:55.674Z"
+    "lastSeenAt": "2026-10-04T07:42:33.666Z",
+    "dateScraped": "2026-10-04T07:42:33.666Z"
   },
   {
     "company": "WorldQuant",
@@ -29,11 +29,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4652485006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9129827518457334,
+    "categoryConfidence": 0.9072330373784636,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-04-06T01:52:26.168Z",
-    "lastSeenAt": "2026-10-04T00:22:55.674Z",
-    "dateScraped": "2026-10-04T00:22:55.674Z"
+    "lastSeenAt": "2026-10-04T07:42:33.666Z",
+    "dateScraped": "2026-10-04T07:42:33.666Z"
   },
   {
     "company": "Headlands Technologies",
@@ -44,8 +44,8 @@
     "categoryConfidence": 0.7826339225911385,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-06-13T02:45:22.072Z",
-    "lastSeenAt": "2026-10-04T00:19:54.427Z",
-    "dateScraped": "2026-10-04T00:19:54.427Z"
+    "lastSeenAt": "2026-10-04T07:40:15.509Z",
+    "dateScraped": "2026-10-04T07:40:15.509Z"
   },
   {
     "company": "Group One Trading",
@@ -56,8 +56,8 @@
     "categoryConfidence": 0.8503445260545212,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-06-24T19:30:52.838Z",
-    "lastSeenAt": "2026-10-04T00:19:48.239Z",
-    "dateScraped": "2026-10-04T00:19:48.239Z"
+    "lastSeenAt": "2026-10-04T07:40:10.052Z",
+    "dateScraped": "2026-10-04T07:40:10.052Z"
   },
   {
     "company": "PDT Partners",
@@ -68,8 +68,8 @@
     "categoryConfidence": 0.9107491121871891,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-24T22:59:08.674Z",
-    "lastSeenAt": "2026-10-04T00:21:03.349Z",
-    "dateScraped": "2026-10-04T00:21:03.349Z"
+    "lastSeenAt": "2026-10-04T07:40:54.195Z",
+    "dateScraped": "2026-10-04T07:40:54.195Z"
   },
   {
     "company": "PDT Partners",
@@ -80,8 +80,8 @@
     "categoryConfidence": 0.8770156114486639,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-24T22:59:08.674Z",
-    "lastSeenAt": "2026-10-04T00:21:03.349Z",
-    "dateScraped": "2026-10-04T00:21:03.349Z"
+    "lastSeenAt": "2026-10-04T07:40:54.195Z",
+    "dateScraped": "2026-10-04T07:40:54.195Z"
   },
   {
     "company": "Akuna Capital",
@@ -92,8 +92,8 @@
     "categoryConfidence": 0.8948442550697528,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-10-04T00:17:23.983Z",
-    "dateScraped": "2026-10-04T00:17:23.983Z"
+    "lastSeenAt": "2026-10-04T07:38:06.356Z",
+    "dateScraped": "2026-10-04T07:38:06.356Z"
   },
   {
     "company": "Akuna Capital",
@@ -104,8 +104,8 @@
     "categoryConfidence": 0.8319356829495452,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-10-04T00:17:23.983Z",
-    "dateScraped": "2026-10-04T00:17:23.983Z"
+    "lastSeenAt": "2026-10-04T07:38:06.356Z",
+    "dateScraped": "2026-10-04T07:38:06.356Z"
   },
   {
     "company": "Akuna Capital",
@@ -116,8 +116,8 @@
     "categoryConfidence": 0.8548448681715275,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-10-04T00:17:23.983Z",
-    "dateScraped": "2026-10-04T00:17:23.983Z"
+    "lastSeenAt": "2026-10-04T07:38:06.356Z",
+    "dateScraped": "2026-10-04T07:38:06.356Z"
   },
   {
     "company": "Akuna Capital",
@@ -128,8 +128,8 @@
     "categoryConfidence": 0.867621810269547,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-10-04T00:17:23.983Z",
-    "dateScraped": "2026-10-04T00:17:23.983Z"
+    "lastSeenAt": "2026-10-04T07:38:06.356Z",
+    "dateScraped": "2026-10-04T07:38:06.356Z"
   },
   {
     "company": "Akuna Capital",
@@ -140,8 +140,8 @@
     "categoryConfidence": 0.9001173752374007,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-10-04T00:17:23.983Z",
-    "dateScraped": "2026-10-04T00:17:23.983Z"
+    "lastSeenAt": "2026-10-04T07:38:06.356Z",
+    "dateScraped": "2026-10-04T07:38:06.356Z"
   },
   {
     "company": "Akuna Capital",
@@ -152,8 +152,8 @@
     "categoryConfidence": 0.90629063669292,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-10-04T00:17:23.983Z",
-    "dateScraped": "2026-10-04T00:17:23.983Z"
+    "lastSeenAt": "2026-10-04T07:38:06.356Z",
+    "dateScraped": "2026-10-04T07:38:06.356Z"
   },
   {
     "company": "Akuna Capital",
@@ -164,8 +164,8 @@
     "categoryConfidence": 0.8899401452018614,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-01T02:56:11.357Z",
-    "lastSeenAt": "2026-10-04T00:17:23.983Z",
-    "dateScraped": "2026-10-04T00:17:23.983Z"
+    "lastSeenAt": "2026-10-04T07:38:06.356Z",
+    "dateScraped": "2026-10-04T07:38:06.356Z"
   },
   {
     "company": "Group One Trading",
@@ -176,8 +176,8 @@
     "categoryConfidence": 0.8569029343230696,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-09T14:06:51.682Z",
-    "lastSeenAt": "2026-10-04T00:19:48.239Z",
-    "dateScraped": "2026-10-04T00:19:48.239Z"
+    "lastSeenAt": "2026-10-04T07:40:10.052Z",
+    "dateScraped": "2026-10-04T07:40:10.052Z"
   },
   {
     "company": "Group One Trading",
@@ -188,8 +188,8 @@
     "categoryConfidence": 0.8523820410546857,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-10T14:01:39.875Z",
-    "lastSeenAt": "2026-10-04T00:19:48.239Z",
-    "dateScraped": "2026-10-04T00:19:48.239Z"
+    "lastSeenAt": "2026-10-04T07:40:10.052Z",
+    "dateScraped": "2026-10-04T07:40:10.052Z"
   },
   {
     "company": "Group One Trading",
@@ -200,8 +200,8 @@
     "categoryConfidence": 0.8566749976150787,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-14T16:07:53.157Z",
-    "lastSeenAt": "2026-10-04T00:19:48.239Z",
-    "dateScraped": "2026-10-04T00:19:48.239Z"
+    "lastSeenAt": "2026-10-04T07:40:10.052Z",
+    "dateScraped": "2026-10-04T07:40:10.052Z"
   },
   {
     "company": "Optiver",
@@ -212,8 +212,8 @@
     "categoryConfidence": 0.9188038111981738,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-23T19:25:31.325Z",
-    "lastSeenAt": "2026-10-03T20:29:23.619Z",
-    "dateScraped": "2026-10-03T20:29:23.619Z"
+    "lastSeenAt": "2026-10-04T07:40:49.684Z",
+    "dateScraped": "2026-10-04T07:40:49.684Z"
   },
   {
     "company": "Gelber Group",
@@ -224,8 +224,8 @@
     "categoryConfidence": 0.77474089205567,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-26T20:30:23.827Z",
-    "lastSeenAt": "2026-10-04T00:19:32.719Z",
-    "dateScraped": "2026-10-04T00:19:32.719Z"
+    "lastSeenAt": "2026-10-04T07:39:59.859Z",
+    "dateScraped": "2026-10-04T07:39:59.859Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -236,44 +236,8 @@
     "categoryConfidence": 0.8244019312256627,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-29T21:45:17.192Z",
-    "lastSeenAt": "2026-10-04T00:18:47.914Z",
-    "dateScraped": "2026-10-04T00:18:47.914Z"
-  },
-  {
-    "company": "3Red Partners",
-    "title": "Graduate Quantitative Researcher (2027 Incoming Graduate, Full-Time)",
-    "url": "https://job-boards.greenhouse.io/3redpartners/jobs/8624128002",
-    "category": "new-grad",
-    "jobTrack": null,
-    "categoryConfidence": 0.9190403298206837,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-10-03T07:23:33.568Z",
-    "lastSeenAt": "2026-10-04T00:17:18.360Z",
-    "dateScraped": "2026-10-04T00:17:18.360Z"
-  },
-  {
-    "company": "3Red Partners",
-    "title": "Graduate C++ Developer (2027 Incoming Graduate, Full-Time)",
-    "url": "https://job-boards.greenhouse.io/3redpartners/jobs/8631086002",
-    "category": "new-grad",
-    "jobTrack": null,
-    "categoryConfidence": 0.8748779251294743,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-10-03T07:23:33.568Z",
-    "lastSeenAt": "2026-10-04T00:17:18.360Z",
-    "dateScraped": "2026-10-04T00:17:18.360Z"
-  },
-  {
-    "company": "3Red Partners",
-    "title": "Graduate Trader (2027 Incoming Graduate, Full-Time)",
-    "url": "https://job-boards.greenhouse.io/3redpartners/jobs/8634612002",
-    "category": "new-grad",
-    "jobTrack": null,
-    "categoryConfidence": 0.8905041340001134,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-10-03T07:23:33.568Z",
-    "lastSeenAt": "2026-10-04T00:17:18.360Z",
-    "dateScraped": "2026-10-04T00:17:18.360Z"
+    "lastSeenAt": "2026-10-04T07:39:17.634Z",
+    "dateScraped": "2026-10-04T07:39:17.634Z"
   },
   {
     "company": "Brevan Howard",
@@ -284,8 +248,8 @@
     "categoryConfidence": 0.7978845442718083,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-03T12:56:00.456Z",
-    "lastSeenAt": "2026-10-04T00:18:25.232Z",
-    "dateScraped": "2026-10-04T00:18:25.232Z"
+    "lastSeenAt": "2026-10-04T07:38:57.912Z",
+    "dateScraped": "2026-10-04T07:38:57.912Z"
   },
   {
     "company": "Brevan Howard",
@@ -296,8 +260,8 @@
     "categoryConfidence": 0.9055441946059865,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-03T12:56:00.456Z",
-    "lastSeenAt": "2026-10-04T00:18:25.232Z",
-    "dateScraped": "2026-10-04T00:18:25.232Z"
+    "lastSeenAt": "2026-10-04T07:38:57.912Z",
+    "dateScraped": "2026-10-04T07:38:57.912Z"
   },
   {
     "company": "Brevan Howard",
@@ -308,8 +272,8 @@
     "categoryConfidence": 0.7926396602238601,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-03T12:56:00.456Z",
-    "lastSeenAt": "2026-10-04T00:18:25.232Z",
-    "dateScraped": "2026-10-04T00:18:25.232Z"
+    "lastSeenAt": "2026-10-04T07:38:57.912Z",
+    "dateScraped": "2026-10-04T07:38:57.912Z"
   },
   {
     "company": "Brevan Howard",
@@ -320,8 +284,8 @@
     "categoryConfidence": 0.8840673700092516,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-03T12:56:00.456Z",
-    "lastSeenAt": "2026-10-04T00:18:25.232Z",
-    "dateScraped": "2026-10-04T00:18:25.232Z"
+    "lastSeenAt": "2026-10-04T07:38:57.912Z",
+    "dateScraped": "2026-10-04T07:38:57.912Z"
   },
   {
     "company": "G-Research",
@@ -329,11 +293,11 @@
     "url": "https://www.gresearch.com/vacancies/liquidity-program-manager",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.6782177407075014,
+    "categoryConfidence": 0.6623175965261727,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-03T20:28:22.134Z",
-    "lastSeenAt": "2026-10-04T00:19:26.856Z",
-    "dateScraped": "2026-10-04T00:19:26.856Z"
+    "lastSeenAt": "2026-10-04T07:39:54.193Z",
+    "dateScraped": "2026-10-04T07:39:54.193Z"
   },
   {
     "company": "G-Research",
@@ -341,10 +305,10 @@
     "url": "https://www.gresearch.com/vacancies/insight-analyst",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.6795551896505531,
+    "categoryConfidence": 0.6654728667160306,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-03T20:28:22.134Z",
-    "lastSeenAt": "2026-10-04T00:19:26.856Z",
-    "dateScraped": "2026-10-04T00:19:26.856Z"
+    "lastSeenAt": "2026-10-04T07:39:54.193Z",
+    "dateScraped": "2026-10-04T07:39:54.193Z"
   }
 ]
