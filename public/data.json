@@ -5,11 +5,11 @@
     "url": "https://group1.applicantpro.com/jobs/4192883",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8582938674120806,
+    "categoryConfidence": 0.8582938452945228,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-06-24T19:30:52.838Z",
-    "lastSeenAt": "2026-10-26T22:11:00.857Z",
-    "dateScraped": "2026-10-26T22:11:00.857Z"
+    "lastSeenAt": "2026-10-27T03:12:15.991Z",
+    "dateScraped": "2026-10-27T03:12:15.991Z"
   },
   {
     "company": "PDT Partners",
@@ -17,11 +17,11 @@
     "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9107491121871891,
+    "categoryConfidence": 0.9107491036029958,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-24T22:59:08.674Z",
-    "lastSeenAt": "2026-10-26T22:11:39.689Z",
-    "dateScraped": "2026-10-26T22:11:39.689Z"
+    "lastSeenAt": "2026-10-27T03:12:58.708Z",
+    "dateScraped": "2026-10-27T03:12:58.708Z"
   },
   {
     "company": "PDT Partners",
@@ -29,11 +29,11 @@
     "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8083292",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8770156114486639,
+    "categoryConfidence": 0.8770156044649231,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-24T22:59:08.674Z",
-    "lastSeenAt": "2026-10-26T22:11:39.689Z",
-    "dateScraped": "2026-10-26T22:11:39.689Z"
+    "lastSeenAt": "2026-10-27T03:12:58.708Z",
+    "dateScraped": "2026-10-27T03:12:58.708Z"
   },
   {
     "company": "Group One Trading",
@@ -41,11 +41,11 @@
     "url": "https://group1.applicantpro.com/jobs/4200875",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8643139807497991,
+    "categoryConfidence": 0.8643139748056126,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-09T14:06:51.682Z",
-    "lastSeenAt": "2026-10-26T22:11:00.857Z",
-    "dateScraped": "2026-10-26T22:11:00.857Z"
+    "lastSeenAt": "2026-10-27T03:12:15.991Z",
+    "dateScraped": "2026-10-27T03:12:15.991Z"
   },
   {
     "company": "Group One Trading",
@@ -53,11 +53,11 @@
     "url": "https://group1.applicantpro.com/jobs/4205954",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8634428626548718,
+    "categoryConfidence": 0.8634428864769365,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-14T16:07:53.157Z",
-    "lastSeenAt": "2026-10-26T22:11:00.857Z",
-    "dateScraped": "2026-10-26T22:11:00.857Z"
+    "lastSeenAt": "2026-10-27T03:12:15.991Z",
+    "dateScraped": "2026-10-27T03:12:15.991Z"
   },
   {
     "company": "Gelber Group",
@@ -65,11 +65,11 @@
     "url": "https://job-boards.greenhouse.io/gelbergroup/jobs/4716779006",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.77474089205567,
+    "categoryConfidence": 0.774740897178323,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-26T20:30:23.827Z",
-    "lastSeenAt": "2026-10-26T22:10:50.824Z",
-    "dateScraped": "2026-10-26T22:10:50.824Z"
+    "lastSeenAt": "2026-10-27T03:12:05.087Z",
+    "dateScraped": "2026-10-27T03:12:05.087Z"
   },
   {
     "company": "G-Research",
@@ -77,11 +77,11 @@
     "url": "https://www.gresearch.com/vacancies/graduate-machine-learning-engineer",
     "category": "new-grad",
     "jobTrack": null,
-    "categoryConfidence": 0.789310648985277,
+    "categoryConfidence": 0.7884725148587217,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-05T19:01:40.587Z",
-    "lastSeenAt": "2026-10-26T22:10:44.625Z",
-    "dateScraped": "2026-10-26T22:10:44.625Z"
+    "lastSeenAt": "2026-10-27T03:11:59.435Z",
+    "dateScraped": "2026-10-27T03:11:59.435Z"
   },
   {
     "company": "PDT Partners",
@@ -89,11 +89,11 @@
     "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8263031",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8618105767470816,
+    "categoryConfidence": 0.8618105839780819,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-08T00:01:34.069Z",
-    "lastSeenAt": "2026-10-26T22:11:39.689Z",
-    "dateScraped": "2026-10-26T22:11:39.689Z"
+    "lastSeenAt": "2026-10-27T03:12:58.708Z",
+    "dateScraped": "2026-10-27T03:12:58.708Z"
   },
   {
     "company": "WorldQuant",
@@ -101,11 +101,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4069460006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8413252043573892,
+    "categoryConfidence": 0.8452830273699503,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-14T03:03:55.905Z",
-    "lastSeenAt": "2026-10-26T22:13:35.383Z",
-    "dateScraped": "2026-10-26T22:13:35.383Z"
+    "lastSeenAt": "2026-10-27T03:14:36.880Z",
+    "dateScraped": "2026-10-27T03:14:36.880Z"
   },
   {
     "company": "WorldQuant",
@@ -113,11 +113,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4084570006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8686417377965161,
+    "categoryConfidence": 0.8694269691955989,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-14T03:03:55.905Z",
-    "lastSeenAt": "2026-10-26T22:13:35.383Z",
-    "dateScraped": "2026-10-26T22:13:35.383Z"
+    "lastSeenAt": "2026-10-27T03:14:36.880Z",
+    "dateScraped": "2026-10-27T03:14:36.880Z"
   },
   {
     "company": "WorldQuant",
@@ -125,11 +125,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4652485006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9177122996961352,
+    "categoryConfidence": 0.9118335412234079,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-14T03:03:55.905Z",
-    "lastSeenAt": "2026-10-26T22:13:35.383Z",
-    "dateScraped": "2026-10-26T22:13:35.383Z"
+    "lastSeenAt": "2026-10-27T03:14:36.880Z",
+    "dateScraped": "2026-10-27T03:14:36.880Z"
   },
   {
     "company": "Akuna Capital",
@@ -137,11 +137,11 @@
     "url": "https://akunacapital.com/careers/job/8018856/platform-engineer-intern-summer-2027?gh_jid=8018856",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8948442550697528,
+    "categoryConfidence": 0.8948442299612711,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-16T19:10:17.858Z",
-    "lastSeenAt": "2026-10-26T22:08:54.412Z",
-    "dateScraped": "2026-10-26T22:08:54.412Z"
+    "lastSeenAt": "2026-10-27T03:10:00.783Z",
+    "dateScraped": "2026-10-27T03:10:00.783Z"
   },
   {
     "company": "Akuna Capital",
@@ -149,11 +149,11 @@
     "url": "https://akunacapital.com/careers/job/8021481/quantitative-development-strategy-intern-summer-2027?gh_jid=8021481",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8319356829495452,
+    "categoryConfidence": 0.8319356737849688,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-16T19:10:17.858Z",
-    "lastSeenAt": "2026-10-26T22:08:54.412Z",
-    "dateScraped": "2026-10-26T22:08:54.412Z"
+    "lastSeenAt": "2026-10-27T03:10:00.783Z",
+    "dateScraped": "2026-10-27T03:10:00.783Z"
   },
   {
     "company": "Akuna Capital",
@@ -161,11 +161,11 @@
     "url": "https://akunacapital.com/careers/job/8036614/quantitative-research-intern-summer-2027?gh_jid=8036614",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8548448681715275,
+    "categoryConfidence": 0.8548448720564861,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-16T19:10:17.858Z",
-    "lastSeenAt": "2026-10-26T22:08:54.412Z",
-    "dateScraped": "2026-10-26T22:08:54.412Z"
+    "lastSeenAt": "2026-10-27T03:10:00.783Z",
+    "dateScraped": "2026-10-27T03:10:00.783Z"
   },
   {
     "company": "Akuna Capital",
@@ -173,11 +173,11 @@
     "url": "https://akunacapital.com/careers/job/8018886/software-engineer-intern---c-net-desktop-summer-2027?gh_jid=8018886",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.867621810269547,
+    "categoryConfidence": 0.8676218082204739,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-16T19:10:17.858Z",
-    "lastSeenAt": "2026-10-26T22:08:54.412Z",
-    "dateScraped": "2026-10-26T22:08:54.412Z"
+    "lastSeenAt": "2026-10-27T03:10:00.783Z",
+    "dateScraped": "2026-10-27T03:10:00.783Z"
   },
   {
     "company": "Akuna Capital",
@@ -185,11 +185,11 @@
     "url": "https://akunacapital.com/careers/job/8018847/software-engineer-intern---c-summer-2027?gh_jid=8018847",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9001173752374007,
+    "categoryConfidence": 0.9001173684623502,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-16T19:10:17.858Z",
-    "lastSeenAt": "2026-10-26T22:08:54.412Z",
-    "dateScraped": "2026-10-26T22:08:54.412Z"
+    "lastSeenAt": "2026-10-27T03:10:00.783Z",
+    "dateScraped": "2026-10-27T03:10:00.783Z"
   },
   {
     "company": "Akuna Capital",
@@ -197,11 +197,11 @@
     "url": "https://akunacapital.com/careers/job/8018893/software-engineer-intern---full-stack-web-summer-2027?gh_jid=8018893",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.90629063669292,
+    "categoryConfidence": 0.906290625452806,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-16T19:10:17.858Z",
-    "lastSeenAt": "2026-10-26T22:08:54.412Z",
-    "dateScraped": "2026-10-26T22:08:54.412Z"
+    "lastSeenAt": "2026-10-27T03:10:00.783Z",
+    "dateScraped": "2026-10-27T03:10:00.783Z"
   },
   {
     "company": "Optiver",
@@ -209,11 +209,11 @@
     "url": "https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/shanghai/expressions-of-interest-quantitative-research-internship-bachelor-or-master-summer-2028-shanghai",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9076369480792705,
+    "categoryConfidence": 0.9076369408287108,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-20T13:14:13.248Z",
-    "lastSeenAt": "2026-10-26T22:11:35.379Z",
-    "dateScraped": "2026-10-26T22:11:35.379Z"
+    "lastSeenAt": "2026-10-27T03:12:53.547Z",
+    "dateScraped": "2026-10-27T03:12:53.547Z"
   },
   {
     "company": "Optiver",
@@ -221,11 +221,11 @@
     "url": "https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/shanghai/expressions-of-interest-quantitative-research-internship-phd-summer-2028--shanghai",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9147671211424617,
+    "categoryConfidence": 0.9147671399005117,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-20T13:14:13.248Z",
-    "lastSeenAt": "2026-10-26T22:11:35.379Z",
-    "dateScraped": "2026-10-26T22:11:35.379Z"
+    "lastSeenAt": "2026-10-27T03:12:53.547Z",
+    "dateScraped": "2026-10-27T03:12:53.547Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -233,11 +233,11 @@
     "url": "https://boards.greenhouse.io/point72/jobs/8885715002?gh_jid=8885715002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9188850973287674,
+    "categoryConfidence": 0.9188851241313432,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-21T02:48:04.058Z",
-    "lastSeenAt": "2026-10-26T22:10:08.077Z",
-    "dateScraped": "2026-10-26T22:10:08.077Z"
+    "lastSeenAt": "2026-10-27T03:11:17.552Z",
+    "dateScraped": "2026-10-27T03:11:17.552Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -245,11 +245,11 @@
     "url": "https://boards.greenhouse.io/point72/jobs/8885693002?gh_jid=8885693002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8955877314348699,
+    "categoryConfidence": 0.8955877356942339,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-21T02:48:04.058Z",
-    "lastSeenAt": "2026-10-26T22:10:08.077Z",
-    "dateScraped": "2026-10-26T22:10:08.077Z"
+    "lastSeenAt": "2026-10-27T03:11:17.552Z",
+    "dateScraped": "2026-10-27T03:11:17.552Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -257,11 +257,11 @@
     "url": "https://boards.greenhouse.io/point72/jobs/8885299002?gh_jid=8885299002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.948476137237773,
+    "categoryConfidence": 0.9484760817193281,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-21T02:48:04.058Z",
-    "lastSeenAt": "2026-10-26T22:10:08.077Z",
-    "dateScraped": "2026-10-26T22:10:08.077Z"
+    "lastSeenAt": "2026-10-27T03:11:17.552Z",
+    "dateScraped": "2026-10-27T03:11:17.552Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -269,11 +269,11 @@
     "url": "https://boards.greenhouse.io/point72/jobs/8492784002?gh_jid=8492784002",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.8244019312256627,
+    "categoryConfidence": 0.8244019332756262,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-21T02:48:04.058Z",
-    "lastSeenAt": "2026-10-26T22:10:08.077Z",
-    "dateScraped": "2026-10-26T22:10:08.077Z"
+    "lastSeenAt": "2026-10-27T03:11:17.552Z",
+    "dateScraped": "2026-10-27T03:11:17.552Z"
   },
   {
     "company": "Headlands Technologies",
@@ -281,11 +281,11 @@
     "url": "https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4227566009",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.7786437184828279,
+    "categoryConfidence": 0.7786437367361064,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-21T22:59:14.749Z",
-    "lastSeenAt": "2026-10-26T22:11:06.232Z",
-    "dateScraped": "2026-10-26T22:11:06.232Z"
+    "lastSeenAt": "2026-10-27T03:12:22.076Z",
+    "dateScraped": "2026-10-27T03:12:22.076Z"
   },
   {
     "company": "Brevan Howard",
@@ -293,11 +293,11 @@
     "url": "https://careers.brevanhoward.com/gb/en/job/JR101633/2027-Summer-Internship-Program-QIS-London",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.8290780701845534,
+    "categoryConfidence": 0.8290780990043807,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-24T13:46:41.034Z",
-    "lastSeenAt": "2026-10-26T22:09:47.696Z",
-    "dateScraped": "2026-10-26T22:09:47.696Z"
+    "lastSeenAt": "2026-10-27T03:10:57.144Z",
+    "dateScraped": "2026-10-27T03:10:57.144Z"
   },
   {
     "company": "Brevan Howard",
@@ -305,11 +305,11 @@
     "url": "https://careers.brevanhoward.com/gb/en/hvhapply?jobSeqNo=BHABHAGBJR101633EXTERNALENGB",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.819648229858372,
+    "categoryConfidence": 0.8196482481855911,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-24T13:46:41.034Z",
-    "lastSeenAt": "2026-10-26T22:09:47.696Z",
-    "dateScraped": "2026-10-26T22:09:47.696Z"
+    "lastSeenAt": "2026-10-27T03:10:57.144Z",
+    "dateScraped": "2026-10-27T03:10:57.144Z"
   },
   {
     "company": "G-Research",
@@ -317,59 +317,11 @@
     "url": "https://www.gresearch.com/vacancies/liquidity-program-manager",
     "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.6657204577326918,
+    "categoryConfidence": 0.6657204622076769,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-25T02:38:42.310Z",
-    "lastSeenAt": "2026-10-26T22:10:44.625Z",
-    "dateScraped": "2026-10-26T22:10:44.625Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "Citadel Associate Program",
-    "url": "https://www.citadel.com/careers/investing/citadel-associate-program",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.7995391286897957,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-10-26T22:10:03.338Z",
-    "lastSeenAt": "2026-10-26T22:10:03.338Z",
-    "dateScraped": "2026-10-26T22:10:03.338Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "GQS PhD Fellowship",
-    "url": "https://www.citadel.com/careers/programs-and-events/gqs-phd-fellowship",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.8579906759130658,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-10-26T22:10:03.338Z",
-    "lastSeenAt": "2026-10-26T22:10:03.338Z",
-    "dateScraped": "2026-10-26T22:10:03.338Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "PhD Summit",
-    "url": "https://www.citadel.com/careers/programs-and-events/phd-summit",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.8452836814933765,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-10-26T22:10:03.338Z",
-    "lastSeenAt": "2026-10-26T22:10:03.338Z",
-    "dateScraped": "2026-10-26T22:10:03.338Z"
-  },
-  {
-    "company": "Citadel",
-    "title": "Campus Sponsorships",
-    "url": "https://www.citadel.com/careers/programs-and-events/campus-sponsorships",
-    "category": "program",
-    "jobTrack": null,
-    "categoryConfidence": 0.7251818461350052,
-    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-10-26T22:10:03.338Z",
-    "lastSeenAt": "2026-10-26T22:10:03.338Z",
-    "dateScraped": "2026-10-26T22:10:03.338Z"
+    "lastSeenAt": "2026-10-27T03:11:59.435Z",
+    "dateScraped": "2026-10-27T03:11:59.435Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -377,11 +329,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8773447002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8454298356995784,
+    "categoryConfidence": 0.8454298142684258,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -389,11 +341,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8623972002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8864461847536914,
+    "categoryConfidence": 0.886446164413921,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -401,11 +353,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8749947002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.901880756141854,
+    "categoryConfidence": 0.9018807705345222,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -413,11 +365,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8749918002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8591676387825657,
+    "categoryConfidence": 0.8591676288094553,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -425,11 +377,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8742098002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.7696683093630386,
+    "categoryConfidence": 0.7696682875052929,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -437,11 +389,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8777855002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8701998455170253,
+    "categoryConfidence": 0.8701998393906933,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -449,11 +401,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8581570002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8302094321158242,
+    "categoryConfidence": 0.8302094159552935,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -461,11 +413,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8617401002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8799697155280672,
+    "categoryConfidence": 0.8799696961135932,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -473,11 +425,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8785833002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8491663458774652,
+    "categoryConfidence": 0.8491663641577546,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -485,11 +437,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8749942002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8654541385271923,
+    "categoryConfidence": 0.8654541369130196,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -497,11 +449,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8777760002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8694691725256001,
+    "categoryConfidence": 0.8694691480347124,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -509,11 +461,11 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8773084002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8934011503418896,
+    "categoryConfidence": 0.8934011904212611,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -521,10 +473,46 @@
     "url": "https://www.qube-rt.com/careers/job?gh_jid=8870423002",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.7786970642895539,
+    "categoryConfidence": 0.7786970555095122,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-26T22:11:59.193Z",
-    "lastSeenAt": "2026-10-26T22:11:59.193Z",
-    "dateScraped": "2026-10-26T22:11:59.193Z"
+    "lastSeenAt": "2026-10-27T03:13:18.591Z",
+    "dateScraped": "2026-10-27T03:13:18.591Z"
+  },
+  {
+    "company": "3Red Partners",
+    "title": "Graduate C++ Developer (2027 Incoming Graduate, Full-Time)",
+    "url": "https://job-boards.greenhouse.io/3redpartners/jobs/8631086002",
+    "category": "new-grad",
+    "jobTrack": null,
+    "categoryConfidence": 0.8748779040622096,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "firstSeenAt": "2026-10-27T03:09:56.042Z",
+    "lastSeenAt": "2026-10-27T03:09:56.042Z",
+    "dateScraped": "2026-10-27T03:09:56.042Z"
+  },
+  {
+    "company": "3Red Partners",
+    "title": "Graduate Trader (2027 Incoming Graduate, Full-Time)",
+    "url": "https://job-boards.greenhouse.io/3redpartners/jobs/8634612002",
+    "category": "new-grad",
+    "jobTrack": null,
+    "categoryConfidence": 0.8905041384802008,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "firstSeenAt": "2026-10-27T03:09:56.042Z",
+    "lastSeenAt": "2026-10-27T03:09:56.042Z",
+    "dateScraped": "2026-10-27T03:09:56.042Z"
+  },
+  {
+    "company": "Peak6",
+    "title": "Learning & Development Program Coordinator",
+    "url": "https://peak6-prod.ongig.com/jobs/people/chicago-illinois-united-states-of-america/learning-development-program-coordinator/JR105336",
+    "category": "program",
+    "jobTrack": null,
+    "categoryConfidence": 0.8030107027143085,
+    "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
+    "firstSeenAt": "2026-10-27T03:13:00.655Z",
+    "lastSeenAt": "2026-10-27T03:13:00.655Z",
+    "dateScraped": "2026-10-27T03:13:00.655Z"
   }
 ]
