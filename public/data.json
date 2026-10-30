@@ -8,8 +8,8 @@
     "categoryConfidence": 0.8582938452945228,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-06-24T19:30:52.838Z",
-    "lastSeenAt": "2026-10-29T20:48:32.717Z",
-    "dateScraped": "2026-10-29T20:48:32.717Z"
+    "lastSeenAt": "2026-10-30T01:31:33.162Z",
+    "dateScraped": "2026-10-30T01:31:33.162Z"
   },
   {
     "company": "PDT Partners",
@@ -20,8 +20,8 @@
     "categoryConfidence": 0.9107491036029958,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-24T22:59:08.674Z",
-    "lastSeenAt": "2026-10-29T20:49:16.660Z",
-    "dateScraped": "2026-10-29T20:49:16.660Z"
+    "lastSeenAt": "2026-10-30T01:32:14.369Z",
+    "dateScraped": "2026-10-30T01:32:14.369Z"
   },
   {
     "company": "PDT Partners",
@@ -32,8 +32,8 @@
     "categoryConfidence": 0.8770156044649231,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-07-24T22:59:08.674Z",
-    "lastSeenAt": "2026-10-29T20:49:16.660Z",
-    "dateScraped": "2026-10-29T20:49:16.660Z"
+    "lastSeenAt": "2026-10-30T01:32:14.369Z",
+    "dateScraped": "2026-10-30T01:32:14.369Z"
   },
   {
     "company": "Group One Trading",
@@ -44,8 +44,8 @@
     "categoryConfidence": 0.8643139748056126,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-09T14:06:51.682Z",
-    "lastSeenAt": "2026-10-29T20:48:32.717Z",
-    "dateScraped": "2026-10-29T20:48:32.717Z"
+    "lastSeenAt": "2026-10-30T01:31:33.162Z",
+    "dateScraped": "2026-10-30T01:31:33.162Z"
   },
   {
     "company": "Group One Trading",
@@ -56,8 +56,8 @@
     "categoryConfidence": 0.8634428864769365,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-14T16:07:53.157Z",
-    "lastSeenAt": "2026-10-29T20:48:32.717Z",
-    "dateScraped": "2026-10-29T20:48:32.717Z"
+    "lastSeenAt": "2026-10-30T01:31:33.162Z",
+    "dateScraped": "2026-10-30T01:31:33.162Z"
   },
   {
     "company": "Gelber Group",
@@ -68,8 +68,8 @@
     "categoryConfidence": 0.774740897178323,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-09-26T20:30:23.827Z",
-    "lastSeenAt": "2026-10-29T20:48:22.316Z",
-    "dateScraped": "2026-10-29T20:48:22.316Z"
+    "lastSeenAt": "2026-10-30T01:31:19.899Z",
+    "dateScraped": "2026-10-30T01:31:19.899Z"
   },
   {
     "company": "G-Research",
@@ -77,11 +77,11 @@
     "url": "https://www.gresearch.com/vacancies/graduate-machine-learning-engineer",
     "category": "new-grad",
     "jobTrack": null,
-    "categoryConfidence": 0.7920838001796476,
+    "categoryConfidence": 0.7928515917188786,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-05T19:01:40.587Z",
-    "lastSeenAt": "2026-10-29T20:48:15.836Z",
-    "dateScraped": "2026-10-29T20:48:15.836Z"
+    "lastSeenAt": "2026-10-30T01:31:14.268Z",
+    "dateScraped": "2026-10-30T01:31:14.268Z"
   },
   {
     "company": "PDT Partners",
@@ -92,8 +92,8 @@
     "categoryConfidence": 0.8618105839780819,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-08T00:01:34.069Z",
-    "lastSeenAt": "2026-10-29T20:49:16.660Z",
-    "dateScraped": "2026-10-29T20:49:16.660Z"
+    "lastSeenAt": "2026-10-30T01:32:14.369Z",
+    "dateScraped": "2026-10-30T01:32:14.369Z"
   },
   {
     "company": "WorldQuant",
@@ -101,11 +101,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4069460006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.8438604018646154,
+    "categoryConfidence": 0.8490443380555963,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-14T03:03:55.905Z",
-    "lastSeenAt": "2026-10-29T20:51:00.600Z",
-    "dateScraped": "2026-10-29T20:51:00.600Z"
+    "lastSeenAt": "2026-10-30T01:33:53.648Z",
+    "dateScraped": "2026-10-30T01:33:53.648Z"
   },
   {
     "company": "WorldQuant",
@@ -113,11 +113,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4084570006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.863180332699638,
+    "categoryConfidence": 0.8747458014799263,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-14T03:03:55.905Z",
-    "lastSeenAt": "2026-10-29T20:51:00.600Z",
-    "dateScraped": "2026-10-29T20:51:00.600Z"
+    "lastSeenAt": "2026-10-30T01:33:53.648Z",
+    "dateScraped": "2026-10-30T01:33:53.648Z"
   },
   {
     "company": "WorldQuant",
@@ -125,11 +125,11 @@
     "url": "https://www.worldquant.com/career-listing?id=4652485006",
     "category": "internship",
     "jobTrack": null,
-    "categoryConfidence": 0.9195705426268463,
+    "categoryConfidence": 0.9148334432430835,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-14T03:03:55.905Z",
-    "lastSeenAt": "2026-10-29T20:51:00.600Z",
-    "dateScraped": "2026-10-29T20:51:00.600Z"
+    "lastSeenAt": "2026-10-30T01:33:53.648Z",
+    "dateScraped": "2026-10-30T01:33:53.648Z"
   },
   {
     "company": "Akuna Capital",
@@ -140,8 +140,8 @@
     "categoryConfidence": 0.8948442299612711,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-16T19:10:17.858Z",
-    "lastSeenAt": "2026-10-29T20:46:12.238Z",
-    "dateScraped": "2026-10-29T20:46:12.238Z"
+    "lastSeenAt": "2026-10-30T01:29:17.778Z",
+    "dateScraped": "2026-10-30T01:29:17.778Z"
   },
   {
     "company": "Akuna Capital",
@@ -152,8 +152,8 @@
     "categoryConfidence": 0.8319356737849688,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-16T19:10:17.858Z",
-    "lastSeenAt": "2026-10-29T20:46:12.238Z",
-    "dateScraped": "2026-10-29T20:46:12.238Z"
+    "lastSeenAt": "2026-10-30T01:29:17.778Z",
+    "dateScraped": "2026-10-30T01:29:17.778Z"
   },
   {
     "company": "Akuna Capital",
@@ -164,8 +164,8 @@
     "categoryConfidence": 0.8548448720564861,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-16T19:10:17.858Z",
-    "lastSeenAt": "2026-10-29T20:46:12.238Z",
-    "dateScraped": "2026-10-29T20:46:12.238Z"
+    "lastSeenAt": "2026-10-30T01:29:17.778Z",
+    "dateScraped": "2026-10-30T01:29:17.778Z"
   },
   {
     "company": "Optiver",
@@ -176,8 +176,8 @@
     "categoryConfidence": 0.9076369408287108,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-20T13:14:13.248Z",
-    "lastSeenAt": "2026-10-29T20:49:11.298Z",
-    "dateScraped": "2026-10-29T20:49:11.298Z"
+    "lastSeenAt": "2026-10-30T01:32:08.763Z",
+    "dateScraped": "2026-10-30T01:32:08.763Z"
   },
   {
     "company": "Optiver",
@@ -188,8 +188,8 @@
     "categoryConfidence": 0.9147671399005117,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-20T13:14:13.248Z",
-    "lastSeenAt": "2026-10-29T20:49:11.298Z",
-    "dateScraped": "2026-10-29T20:49:11.298Z"
+    "lastSeenAt": "2026-10-30T01:32:08.763Z",
+    "dateScraped": "2026-10-30T01:32:08.763Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -200,8 +200,8 @@
     "categoryConfidence": 0.9188851241313432,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-21T02:48:04.058Z",
-    "lastSeenAt": "2026-10-29T20:47:32.813Z",
-    "dateScraped": "2026-10-29T20:47:32.813Z"
+    "lastSeenAt": "2026-10-30T01:30:35.972Z",
+    "dateScraped": "2026-10-30T01:30:35.972Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -212,8 +212,8 @@
     "categoryConfidence": 0.8955877356942339,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-21T02:48:04.058Z",
-    "lastSeenAt": "2026-10-29T20:47:32.813Z",
-    "dateScraped": "2026-10-29T20:47:32.813Z"
+    "lastSeenAt": "2026-10-30T01:30:35.972Z",
+    "dateScraped": "2026-10-30T01:30:35.972Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -224,8 +224,8 @@
     "categoryConfidence": 0.9484760817193281,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-21T02:48:04.058Z",
-    "lastSeenAt": "2026-10-29T20:47:32.813Z",
-    "dateScraped": "2026-10-29T20:47:32.813Z"
+    "lastSeenAt": "2026-10-30T01:30:35.972Z",
+    "dateScraped": "2026-10-30T01:30:35.972Z"
   },
   {
     "company": "Cubist (Point72)",
@@ -236,8 +236,8 @@
     "categoryConfidence": 0.8244019332756262,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-21T02:48:04.058Z",
-    "lastSeenAt": "2026-10-29T20:47:32.813Z",
-    "dateScraped": "2026-10-29T20:47:32.813Z"
+    "lastSeenAt": "2026-10-30T01:30:35.972Z",
+    "dateScraped": "2026-10-30T01:30:35.972Z"
   },
   {
     "company": "Headlands Technologies",
@@ -248,8 +248,8 @@
     "categoryConfidence": 0.7786437367361064,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-21T22:59:14.749Z",
-    "lastSeenAt": "2026-10-29T20:48:40.090Z",
-    "dateScraped": "2026-10-29T20:48:40.090Z"
+    "lastSeenAt": "2026-10-30T01:31:38.974Z",
+    "dateScraped": "2026-10-30T01:31:38.974Z"
   },
   {
     "company": "G-Research",
@@ -260,8 +260,8 @@
     "categoryConfidence": 0.678877703968802,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-28T07:49:46.933Z",
-    "lastSeenAt": "2026-10-29T20:48:15.836Z",
-    "dateScraped": "2026-10-29T20:48:15.836Z"
+    "lastSeenAt": "2026-10-30T01:31:14.268Z",
+    "dateScraped": "2026-10-30T01:31:14.268Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -272,8 +272,8 @@
     "categoryConfidence": 0.8454298142684258,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -284,8 +284,8 @@
     "categoryConfidence": 0.886446164413921,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -296,8 +296,8 @@
     "categoryConfidence": 0.9018807705345222,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -308,8 +308,8 @@
     "categoryConfidence": 0.8591676288094553,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -320,8 +320,8 @@
     "categoryConfidence": 0.7696682875052929,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -332,8 +332,8 @@
     "categoryConfidence": 0.8701998393906933,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -344,8 +344,8 @@
     "categoryConfidence": 0.8302094159552935,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -356,8 +356,8 @@
     "categoryConfidence": 0.8799696961135932,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -368,8 +368,8 @@
     "categoryConfidence": 0.8491663641577546,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -380,8 +380,8 @@
     "categoryConfidence": 0.8654541369130196,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -392,8 +392,8 @@
     "categoryConfidence": 0.8694691480347124,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -404,8 +404,8 @@
     "categoryConfidence": 0.8660779168204533,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "Qube Research & Technologies",
@@ -416,8 +416,8 @@
     "categoryConfidence": 0.7786970555095122,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T07:57:16.888Z",
-    "lastSeenAt": "2026-10-29T20:49:37.155Z",
-    "dateScraped": "2026-10-29T20:49:37.155Z"
+    "lastSeenAt": "2026-10-30T01:32:35.190Z",
+    "dateScraped": "2026-10-30T01:32:35.190Z"
   },
   {
     "company": "3Red Partners",
@@ -428,19 +428,19 @@
     "categoryConfidence": 0.8905041384802008,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
     "firstSeenAt": "2026-10-29T14:51:38.381Z",
-    "lastSeenAt": "2026-10-29T20:46:06.425Z",
-    "dateScraped": "2026-10-29T20:46:06.425Z"
+    "lastSeenAt": "2026-10-30T01:29:12.900Z",
+    "dateScraped": "2026-10-30T01:29:12.900Z"
   },
   {
     "company": "Peak6",
-    "title": "Campus Student Founder / Teacher",
-    "url": "https://peak6-prod.ongig.com/jobs/marketing/austin-texas-united-states-of-america/campus-student-founder-teacher/JR105125",
-    "category": "new-grad",
+    "title": "Learning & Development Program Coordinator",
+    "url": "https://peak6-prod.ongig.com/jobs/people/chicago-illinois-united-states-of-america/learning-development-program-coordinator/JR105336",
+    "category": "program",
     "jobTrack": null,
-    "categoryConfidence": 0.7258717957479888,
+    "categoryConfidence": 0.8030107027143085,
     "classificationModel": "Xenova/paraphrase-MiniLM-L3-v2",
-    "firstSeenAt": "2026-10-29T20:49:18.943Z",
-    "lastSeenAt": "2026-10-29T20:49:18.943Z",
-    "dateScraped": "2026-10-29T20:49:18.943Z"
+    "firstSeenAt": "2026-10-30T01:32:16.676Z",
+    "lastSeenAt": "2026-10-30T01:32:16.676Z",
+    "dateScraped": "2026-10-30T01:32:16.676Z"
   }
 ]
